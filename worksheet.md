@@ -1,8 +1,6 @@
-Turtley Amazing
-==========
+# Turtley Amazing
 
-Is it Art, Maths, or Computer Science?
---------------------------------------
+## Is it Art, Maths, or Computer Science?
 
 -   Have a look at the image below. How would you classify this?
 
@@ -11,8 +9,7 @@ Is it Art, Maths, or Computer Science?
     understanding of Art, Maths and Computer Science.
 -   Let's see how you too can make images just like this.
 
-Step 1 - Drawing a line
------------------------
+## Drawing a line
 
 -   The image above is made up of lines and only lines! To get started,
     you need to know how to draw a line using a little bit of python
@@ -26,13 +23,12 @@ Step 1 - Drawing a line
 -   Now try changing the number in the line `forward(100)`, click on
     **Run** again and see what happens.
 
-Step 2 - Turning
-----------------
+## Turning
 
 -   Let's try making the *turtle* turn around.
 -   Alter the code above, so that it looks like this:
 
-``` {.python}
+```python
 from turtle import Turtle, Screen
 
 turtle = Turtle()
@@ -51,8 +47,7 @@ turtle.forward(100)
 2.  Draw a triangle
 3.  Draw a cross
 
-Step 3 - Changing colours
--------------------------
+## Changing colours
 
 -   Look at the code below. It contains three variables called `R`, `G`,
     and `B`.
@@ -68,7 +63,7 @@ Step 3 - Changing colours
 -   You can change the colour of the turtle as well. Try copying the
     code below to see what happens.
 
-``` {.python}
+```python
 from turtle import Turtle, Screen
 
 turtle = Turtle()
@@ -101,8 +96,7 @@ turtle.forward(100)
 1.  Draw a square with sides that are 4 different shades of red
 2.  Draw a cross made of 4 different colours
 
-Step 4 - Repetition
--------------------
+## Repetition
 
 -   Read over the code below, then run it to see what it does.
 
@@ -122,8 +116,7 @@ Step 4 - Repetition
     `B`, would allow you to make a multicoloured spiral. Have a go at
     creating a rainbow spiral.
 
-Step 5 - Better Spirals
------------------------
+## Better Spirals
 
 -   Have a go at reading over the code below and guessing what it does.
     Then run it to see if you were correct.
@@ -134,7 +127,7 @@ Step 5 - Better Spirals
     ages to run. We can speed things up a little though. Add in the
     following line, **before the `for` loop**.
 
-``` {.python}
+```python
 turtle.speed(0)
 ```
 
