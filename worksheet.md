@@ -4,7 +4,7 @@
 
 -   Have a look at the image below. How would you classify this?
 
-![](file:screen1.png)
+![](images/screen1.png)
 -   It's a computer generated image, but to make it requires an
     understanding of Art, Maths and Computer Science.
 -   Let's see how you too can make images just like this.
