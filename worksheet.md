@@ -128,4 +128,5 @@ In Python there are two types of loops that you are likely to want to use: A `wh
 - Become a python turtle expert by continuing with the [next page of Turtley Amazing](worksheet2.md)!
 - Learn how to use `functions` to [draw snowflakes](https://www.raspberrypi.org/learning/turtle-snowflakes/) using turtle. 
 - Create interactive stories using `lists` in Python with the [Storytime](https://www.raspberrypi.org/learning/storytime/) resource. 
-- Take your first steps [controlling physical objects](https://www.raspberrypi.org/learning/physical-computing-guide/) with Python and a Raspberry Pi. 
+- Take your first steps [controlling physical objects](https://www.raspberrypi.org/learning/getting-started-with-gpio-zero
+) with Python and a Raspberry Pi. 
