@@ -179,3 +179,6 @@ You can use the while loops, along with the spiral code, to make a really pretty
   <iframe src="https://trinket.io/embed/python/91a1daf84e" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ## What next?
+- Learn how to use `functions` to [draw snowflakes](https://www.raspberrypi.org/learning/turtle-snowflakes/) using turtle. 
+- Create interactive stories using `lists` in Python with the [Storytime](https://www.raspberrypi.org/learning/storytime/) resource. 
+- Take your first steps [controlling physical objects](https://www.raspberrypi.org/learning/physical-computing-guide/) with Python and a Raspberry Pi. 
