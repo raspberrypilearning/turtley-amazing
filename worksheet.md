@@ -24,16 +24,21 @@ You've used code to draw a line. Good work! Now let's try making the *turtle* tu
   <iframe src="https://trinket.io/embed/python/88c91b8dfb" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 1. What do you think will happen in the code above? Click on **Run** to see if you were right. 
-1. Write the next lines of code to complete a square shape above and press **Run**. Keep trying until you get it right. 
+
+  `turtle.right(90)` turns the cursor 90 degress right. You can also turn left with `turtle.left(90)`. To change the amount that the cursor turns, simply change the value of degrees. 
+
+1. Complete the square shape you've started by adding the next lines of code and press **Run**. Keep trying until you get it right. 
 
 ### Challenge
 *Try and complete each of the challenges below.*
 
-1.  Draw a rectangle
-1.  Draw a triangle
-1.  Draw a cross
+1.  Draw a rectangle - Two of the four sides need to be longer.
+1.  Draw a triangle - How many degress do you need to turn?
+1.  Draw a cross - Backwards and forwards work well together.
+2.  Draw a circle - What happens if you turn lots? 
 
 ## Changing colours
+The default colour for the pen used by the turtle cursor is black, and the default background colour is white. You can change the colours to make your shapes look even better.
 
 1. Look at the code below. It contains three variables called `R`, `G`, and `B`.
 
@@ -42,41 +47,20 @@ You've used code to draw a line. Good work! Now let's try making the *turtle* tu
   Variables are a way of storing a value, and giving it a name. For instance there is a variable name `R` with a value of `255`. 
 
 1. Run the code and see what happens. 
-1. Try changing the values of the three variables, and see what happens. (Note - the maximum value is 255, and after this there will be no affect.)
-1. What do you think R, G and B represent? You can change the colour of the turtle as well. Try copying the code below to see what happens:
+1. Try changing the values of the three variables, and see what happens. (Note - the maximum value is 255, and after this there will be no affect.) What do you think R, G and B represent?
 
-  ```python
-  from turtle import Turtle, Screen
-  
-  turtle = Turtle()
-  screen = Screen()
-  
-  screen.bgcolor('blue')
-  
-  R = 255
-  G = 0
-  B = 0
-  
-  turtle.color((R, G, B))
-  turtle.forward(100)
-  turtle.right(120)
-  G = 255
-  turtle.color((R, G, B))
-  turtle.forward(100)
-  turtle.right(120)
-  B += 125
-  R -= 100
-  turtle.color((R, G, B))
-  turtle.forward(100)
-  ```
+  You can change the value of your variables either by setting them to a new value, or by increasing and decreasing them.
 
-1. You can change the value of your variables either by setting them to a new value, or by increasing and decreasing them.
+1.  You can change the colour of the turtle as well. Run the code below to see what happens:
+
+  <iframe src="https://trinket.io/embed/python/ab6732d60e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### Challenge 
 *Try and complete each of the challenges below. If you struggle, then click on the link to see the code.*
 
-1.  Draw a square with sides that are 4 different shades of red
-2.  Draw a cross made of 4 different colours
+1.  Complete the triangle above with a colour of your choice
+1.  Draw a square with sides that are 4 different different shades of red
+1.  Draw a cross made of 4 different colours
 
 ## Repetition
 
