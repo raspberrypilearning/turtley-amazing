@@ -19,27 +19,17 @@ The image above is made up of lines and only lines! To get started, you need to 
 
 ## Turning
 
-Let's try making the *turtle* turn around. 
+You've used code to draw a line. Good work! Now let's try making the *turtle* turn around. To do this you need to instruct the turtle not only to move forward, but also to turn right or left. 
 
-1. Alter the code above, so that it looks like this:
+  <iframe src="https://trinket.io/embed/python/88c91b8dfb" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-  ```python
-  from turtle import Turtle, Screen
-  
-  turtle = Turtle()
-  screen = Screen()
-  
-  turtle.forward(100)
-  turtle.right(90)
-  turtle.forward(100)
-  ```
-
-1. Now hit run and see what happens.
+1. What do you think will happen in the code above? Click on **Run** to see if you were right. 
+1. Write the next lines of code to complete a square shape above and press **Run**. Keep trying until you get it right. 
 
 ### Challenge
-Try and complete each of the challenges below. If you struggle, then click on the link to see the code.
+*Try and complete each of the challenges below.*
 
-1.  Draw a square
+1.  Draw a rectangle
 1.  Draw a triangle
 1.  Draw a cross
 
