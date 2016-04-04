@@ -56,7 +56,7 @@ The default colour for the pen used by the turtle cursor is black, and the defau
   <iframe src="https://trinket.io/embed/python/ab6732d60e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### Challenge 
-*Try and complete each of the challenges below. If you struggle, then click on the link to see the code.*
+*Try and complete each of the challenges below.*
 
 1.  Complete the triangle above with a colour of your choice
 1.  Draw a square with sides that are 4 different different shades of red
@@ -64,15 +64,35 @@ The default colour for the pen used by the turtle cursor is black, and the defau
 
 ## Repetition
 
-1. Read over the code below, then run it to see what it does.
+Repeating lines of code is one of the fastest ways to get something done. Quite often in computer science, it makes more sense to repeat lines of code rather than write out another instructions. For example, the square you created earlier uses the same two instructions four times. Rather than writing them out four times, you could write them out once but add an instruction to repeat them.
 
+In Python there are two types of loops that you are likely to want to use: A `while` loop and a `for` loop. 
+- If you want a section of code to repeat forever, or until a condition is set, then a `while` loop might be best. 
+- If you want to loop for a set number of times, then a `for` loop is preferable. 
+
+1. Below I've used a `while True` loop. This means that the code inside the loop (or indented) will repeat forever. You can try it in trinket to see what it does, but remember it will loop **forever**!
+
+  ```python
+  from turtle import Turtle, Screen
+    
+  turtle = Turtle()
+  screen = Screen()
+  
+  while True:
+    turtle.forward(1)
+    turtle.right(1)
+  ```
+
+  This type of loop is not going to be very useful for drawing shapes with turtle where you want to be more precise. 
+
+1. In this example, a `for` loop has been used. Press **Run** to see what happens.   
+  
   <iframe src="https://trinket.io/embed/python/5222e2013d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
--   A `for` loop repeats instructions a set number of times. In this case 8 times.
--   A `for` loop has an associated variable (called `i` here). In this example `i` starts from `0` and increases by `1` each time.
+  A `for` loop repeats instructions a set number of times. In this case 8 times. A `for` loop has an associated variable (called `i` here). In this example `i` starts from `0` and increases by `1` each time.
 
 ### Challenge
-*Try and complete each of the challenges below. If you struggle, then click on the link to see the code.*
+*Try and complete each of the challenges below.*
 
 1. A spiral can be made by turning a small degree (try `i`) and then moving forward a small ammount (how about `i` again). Can you alter the `for` loop so that it draws a spial.
 1. Adding a few extra lines where you alter the variables `R`, `G`, and `B`, would allow you to make a multicoloured spiral. Have a go at creating a rainbow spiral.
