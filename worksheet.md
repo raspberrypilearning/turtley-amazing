@@ -88,12 +88,39 @@ In Python there are two types of loops that you are likely to want to use: A `wh
   
   <iframe src="https://trinket.io/embed/python/b89b6f5457" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-  A `for` loop repeats instructions a set number of times. In this case 8 times. A `for` loop has an associated variable (called `i` here). In this example `i` starts from `0` and increases by `1` each time.
+  A `for` loop repeats instructions a set number of times. In this case 8 times. A `for` loop has an associated variable (called `i` here). In this example `i` starts from `0` and increases by `1` each time. Let's apply this to the code to draw a square:
 
+  ```python
+  from turtle import Turtle, Screen
+    
+  turtle = Turtle()
+  
+  for i in range(4):
+    turtle.forward(100)
+    turtle.right(90)
+  ```
+
+1. Copy and paste this code into the trinket above and run it. The turtle has been asked to repeat two instructions 4 times to make a square.
+
+1. Once you have created one shape using a loop, you can repeat the shape again and again by putting it inside another loop. This is a great way to draw spirals. Adapt your code, by making it look like this:
+
+  ```python
+  from turtle import Turtle, Screen
+    
+  turtle = Turtle()
+  
+  for i in range(30):
+    for i in range(4):
+      turtle.forward(100)
+      turtle.right(90)
+    turtle.right(25)
+  ```
+  A spiral can be made by turning a small degree and then moving forward a small amount. The section of code for making a square is inside another `for` loop that repeats it 30 times, each time turning the cursor 25 degress to make a pleasing spiral shape.  
+  
 ### Challenge
 *Try and complete each of the challenges below.*
 
-1. A spiral can be made by turning a small degree (try `i`) and then moving forward a small ammount (how about `i` again). Can you alter the `for` loop so that it draws a spial.
+1. Can you alter the `for` loop so that it draws a more interesting spiral using one of the shapes you made earlier, like a triangle or circle?
 
 1. Adding a few extra lines where you alter the variables `R`, `G`, and `B`, would allow you to make a multicoloured spiral. Have a go at creating a rainbow spiral.
 
