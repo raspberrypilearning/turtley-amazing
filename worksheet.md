@@ -95,6 +95,7 @@ In Python there are two types of loops that you are likely to want to use: A `wh
 *Try and complete each of the challenges below.*
 
 1. A spiral can be made by turning a small degree (try `i`) and then moving forward a small ammount (how about `i` again). Can you alter the `for` loop so that it draws a spial.
+
 1. Adding a few extra lines where you alter the variables `R`, `G`, and `B`, would allow you to make a multicoloured spiral. Have a go at creating a rainbow spiral.
 
 ## Better Spirals
