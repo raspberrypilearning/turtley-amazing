@@ -12,7 +12,7 @@ It's a computer generated image, but to make it requires an understanding of Art
 
 The image above is made up of lines and only lines! To get started, you need to know how to draw a line using a little bit of python code. Below is an interactive Python environment, in which you can write code and then run it to see what happens.
 
-<iframe src="https://trinket.io/embed/python/0d2e8c2dac" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+  <iframe src="https://trinket.io/embed/python/0d2e8c2dac" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 1. Click on **Run** to see the code working.
 1. Now try changing the number in the line `turtle.forward(100)`, click on **Run** again and see what happens.
@@ -23,16 +23,16 @@ Let's try making the *turtle* turn around.
 
 1. Alter the code above, so that it looks like this:
 
-```python
-from turtle import Turtle, Screen
-
-turtle = Turtle()
-screen = Screen()
-
-turtle.forward(100)
-turtle.right(90)
-turtle.forward(100)
-```
+  ```python
+  from turtle import Turtle, Screen
+  
+  turtle = Turtle()
+  screen = Screen()
+  
+  turtle.forward(100)
+  turtle.right(90)
+  turtle.forward(100)
+  ```
 
 1. Now hit run and see what happens.
 
@@ -47,9 +47,10 @@ Try and complete each of the challenges below. If you struggle, then click on th
 
 1. Look at the code below. It contains three variables called `R`, `G`, and `B`.
 
-<iframe src="https://trinket.io/embed/python/b964b7d3ce" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+  <iframe src="https://trinket.io/embed/python/b964b7d3ce" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-Variables are a way of storing a value, and giving it a name. For instance there is a variable name `R` with a value of `255`. 
+  Variables are a way of storing a value, and giving it a name. For instance there is a variable name `R` with a value of `255`. 
+
 1. Run the code and see what happens. 
 1. Try changing the values of the three variables, and see what happens. (Note - the maximum value is 255, and after this there will be no affect.)
 1. What do you think R, G and B represent? You can change the colour of the turtle as well. Try copying the code below to see what happens:
@@ -82,7 +83,7 @@ Variables are a way of storing a value, and giving it a name. For instance there
 1. You can change the value of your variables either by setting them to a new value, or by increasing and decreasing them.
 
 ### Challenge 
-Try and complete each of the challenges below. If you struggle, then click on the link to see the code.
+*Try and complete each of the challenges below. If you struggle, then click on the link to see the code.*
 
 1.  Draw a square with sides that are 4 different shades of red
 2.  Draw a cross made of 4 different colours
@@ -97,7 +98,7 @@ Try and complete each of the challenges below. If you struggle, then click on th
 -   A `for` loop has an associated variable (called `i` here). In this example `i` starts from `0` and increases by `1` each time.
 
 ### Challenge
-Try and complete each of the challenges below. If you struggle, then click on the link to see the code.
+*Try and complete each of the challenges below. If you struggle, then click on the link to see the code.*
 
 1. A spiral can be made by turning a small degree (try `i`) and then moving forward a small ammount (how about `i` again). Can you alter the `for` loop so that it draws a spial.
 1. Adding a few extra lines where you alter the variables `R`, `G`, and `B`, would allow you to make a multicoloured spiral. Have a go at creating a rainbow spiral.
@@ -136,45 +137,45 @@ colours = [(85, 211, 136), (197, 196, 126), (235, 233, 166), (25, 135, 222), (21
 1. What if you want a longer line? Try changing the number of loops in the `for` loop to `range(20)` and see what happens. Do you get an error?
 
 ## Modulo to the rescue
-In the above example, you need a way to keep looping over the list items, so when `i` gets to 9, it just goes back around and gets the "0th" item from the list again.
-- This is where the modulo operator `%` can help you out.
-- Look at the code below - run it and see if you can figure out what is going on.
+In the above example, you need a way to keep looping over the list items, so when `i` gets to 9, it just goes back around and gets the "0th" item from the list again. This is where the modulo operator `%` can help you out.
 
-<iframe src="https://trinket.io/embed/python/8fd77a1942" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+1. Look at the code below - run it and see if you can figure out what is going on.
 
-- Try changing the numbers in the `print`. There are some example to try below
+  <iframe src="https://trinket.io/embed/python/8fd77a1942" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-```python
-print(12 % 6)
-print(6 % 6)
-print(0 % 6)
-print(13 % 6)
-print(17 % 6)
-print(1 % 6)
-print(8 % 6)
-print(11 % 6)
-```
+1. Try changing the numbers in the `print`. There are some example to try below
 
-- Did you figure it out. The `%` operator prints out the remainder of a division. 15 ÷ 6 for instance is 2 with a remainder of 3. Therefore 15 % 6 would be 3.
+  ```python
+  print(12 % 6)
+  print(6 % 6)
+  print(0 % 6)
+  print(13 % 6)
+  print(17 % 6)
+  print(1 % 6)
+  print(8 % 6)
+  print(11 % 6)
+  ```
 
-- We can use this operator to help with the problem of running off the end of the list. If the `range` goes above the length of the list, you can just do a `%` of the length of the list.
+1. Did you figure it out. The `%` operator prints out the remainder of a division. 15 ÷ 6 for instance is 2 with a remainder of 3. Therefore 15 % 6 would be 3. We can use this operator to help with the problem of running off the end of the list. If the `range` goes above the length of the list, you can just do a `%` of the length of the list.
 
-- Have a look at the example below, and read through the code carefully to make sure you can see hwo the modulo operator is used.
+1. Have a look at the example below, and read through the code carefully to make sure you can see how the modulo operator is used.
 
-<iframe src="https://trinket.io/embed/python/c56b5cb705" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+  <iframe src="https://trinket.io/embed/python/c56b5cb705" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ## Enormous lists
 
-- You can now have a go at creating a list of colours that's a little longer than before.
-- To do this you can use a `while` loop. Unlike a `for` loop, a while loop keeps running until a specific condition has been met.
-- Look at the code below. The `while` loop is used to gradually increase the value of `G`, until it reaches 255. Each time, the colours are added to the list.
+You can now have a go at creating a list of colours that's a little longer than before. To do this you can use a `while` loop. Unlike a `for` loop, a while loop keeps running until a specific condition has been met.
 
-<iframe src="https://trinket.io/embed/python/cfb2a665a8" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+1. Look at the code below. The `while` loop is used to gradually increase the value of `G`, until it reaches 255. Each time, the colours are added to the list.
 
-- Can you add in two more `while` loops, to add more colours. The next loop should gradually decreast `R` until it reaches 0. The final one should then increase `B` until it reaches 255. Have a go, but if you get stuck, all is revealed in the last section.
+  <iframe src="https://trinket.io/embed/python/cfb2a665a8" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+1. Can you add in two more `while` loops, to add more colours. The next loop should gradually decreast `R` until it reaches 0. The final one should then increase `B` until it reaches 255. Have a go, but if you get stuck, all is revealed in the last section.
 
 ## Putting it all together.
 
-- You can use the while loops, along with the spiral code, to make a really pretty spiral now. Have a look at the code below, and make sure you understand what it is doing. Try playing with the value of the variables in the loops, to see what effect it has on the output.
+You can use the while loops, along with the spiral code, to make a really pretty spiral now. Have a look at the code below, and make sure you understand what it is doing. Try playing with the value of the variables in the loops, to see what effect it has on the output.
 
-<iframe src="https://trinket.io/embed/python/91a1daf84e" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+  <iframe src="https://trinket.io/embed/python/91a1daf84e" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+## What next?
