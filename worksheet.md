@@ -78,8 +78,8 @@ In Python there are two types of loops that you are likely to want to use: A `wh
   turtle = Turtle()
   
   while True:
-    turtle.forward(1)
-    turtle.right(1)
+      turtle.forward(1)
+      turtle.right(1)
   ```
 
   This type of loop is not going to be very useful for drawing shapes with turtle where you want to be more precise. 
@@ -96,8 +96,8 @@ In Python there are two types of loops that you are likely to want to use: A `wh
   turtle = Turtle()
   
   for i in range(4):
-    turtle.forward(100)
-    turtle.right(90)
+      turtle.forward(100)
+      turtle.right(90)
   ```
 
 1. Copy and paste this code into the trinket above and run it. The turtle has been asked to repeat two instructions 4 times to make a square.
@@ -110,10 +110,10 @@ In Python there are two types of loops that you are likely to want to use: A `wh
   turtle = Turtle()
   
   for i in range(30):
-    for i in range(4):
-      turtle.forward(100)
-      turtle.right(90)
-    turtle.right(25)
+      for i in range(4):
+          turtle.forward(100)
+          turtle.right(90)
+      turtle.right(25)
   ```
   A spiral can be made by turning a small degree and then moving forward a small amount. The section of code for making a square is inside another `for` loop that repeats it 30 times, each time turning the cursor 25 degress to make a pleasing spiral shape.  
   
