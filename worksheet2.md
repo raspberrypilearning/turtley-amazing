@@ -67,8 +67,10 @@ You can now have a go at creating a list of colours that's a little longer than 
 
 1. Can you add in two more `while` loops, to add more colours. The next loop should gradually decreast `R` until it reaches 0. The final one should then increase `B` until it reaches 255. Have a go, but if you get stuck, all is revealed in the last section.
 
-## Putting it all together.
+## Putting it all together
 
 You can use the while loops, along with the spiral code, to make a really pretty spiral now. Have a look at the code below, and make sure you understand what it is doing. Try playing with the value of the variables in the loops, to see what effect it has on the output.
 
   <iframe src="https://trinket.io/embed/python/91a1daf84e" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+[Back to Worksheet 1](worksheet.md) for tips on where to go next.
