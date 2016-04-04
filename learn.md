@@ -1,7 +1,9 @@
-By creating a something with your Raspberry Pi you will learn:
+By making patterns with Python code you will learn:
 
-- How to set up a Raspberry Pi camera
-- How to use GPIO pins
-- How to create a circuit on a breadboard
-- Controlling GPIO pins with Python code
-- Controlling the camera module with Python code
+- To take your first steps with the Python programming language
+- How to draw lines with Python Turtle
+- How to make turns
+- How to change the pen colour
+- To use loops to repeat some instructions and create shapes
+- To use more loops to create spiral patterns
+
