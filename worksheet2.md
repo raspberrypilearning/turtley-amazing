@@ -73,4 +73,6 @@ You can use the while loops, along with the spiral code, to make a really pretty
 
   <iframe src="https://trinket.io/embed/python/91a1daf84e" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
+## What Next?
+
 [Back to Worksheet 1](worksheet.md) for tips on where to go next.
