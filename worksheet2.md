@@ -75,4 +75,8 @@ You can use the while loops, along with the spiral code, to make a really pretty
 
 ## What Next?
 
-[Back to Worksheet 1](worksheet.md) for tips on where to go next.
+- [Back to Worksheet 1](worksheet.md).
+- Learn how to use `functions` to [draw snowflakes](https://www.raspberrypi.org/learning/turtle-snowflakes/) using turtle. 
+- Create interactive stories using `lists` in Python with the [Storytime](https://www.raspberrypi.org/learning/storytime/) resource. 
+- Take your first steps [controlling physical objects](https://www.raspberrypi.org/learning/getting-started-with-gpio-zero
+) with Python and a Raspberry Pi. 
