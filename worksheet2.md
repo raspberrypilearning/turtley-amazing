@@ -63,9 +63,9 @@ In the above example, you need a way to keep looping over the list items, so whe
 
 ## Enormous lists
 
-You can now have a go at creating a list of colours that's a little longer than before. To do this you can use a `while` loop. Unlike a `for` loop, a while loop keeps running until a specific condition has been met.
+You can now have a go at creating a list of colours that's a little longer than before. To do this you can use a `while` loop. Unlike a `for` loop, a `while` loop keeps running until a specific condition has been met.
 
-1. Look at the code below. The `while` loop is used to gradually increase the value of `G`, until it reaches 255. Each time, the colours are added to the list.
+1. Look at the code below. The `while` loop is used to gradually increase the value of `G` until it reaches 255. Each time, the colours are added to the list.
 
   <iframe src="https://trinket.io/embed/python/cfb2a665a8" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
