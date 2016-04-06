@@ -1,5 +1,7 @@
 # Turtley Amazing
 
+In this resource you will take your first steps with the programming language Python to draw shapes, patterns, and spirals. 
+
 ## Is it Art, Maths, or Computer Science?
 
 Have a look at the image below. How would you describe it? Is is art, maths, or computer science? 
