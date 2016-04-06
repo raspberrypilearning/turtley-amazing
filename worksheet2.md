@@ -55,7 +55,7 @@ In the above example, you need a way to keep looping over the list items, so whe
   print(11 % 6)
   ```
 
-1. Did you figure it out? The `%` operator prints out the remainder of a division. 15 ÷ 6 for instance is 2 with a remainder of 3. Therefore 15 % 6 would be 3. We can use this operator to help with the problem of running off the end of the list. If the `range` goes above the length of the list, you can just do a `%` of the length of the list.
+1. Did you figure it out? The `%` operator prints out the remainder of a division. For example, 15 ÷ 6 is 2 with a remainder of 3. Therefore 15 % 6 would be 3. We can use this operator to help with the problem of running off the end of the list. If the `range` goes above the length of the list, you can just do a `%` of the length of the list.
 
 1. Have a look at the example below, and read through the code carefully to make sure you can see how the modulo operator is used.
 
