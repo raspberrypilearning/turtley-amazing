@@ -10,7 +10,7 @@ It's a computer generated image, but to make it requires an understanding of art
 
 ## Drawing a line
 
-The image above is made up of lines and only lines! To get started, you need to know how to draw a line using a little bit of Python code. Below is an interactive Python environment: you can write code in it, and then run it to see what happens.
+The image above is made up of lines and only lines! To get started, you need to know how to draw a line using a little bit of Python code. Below is an interactive Python environment called Trinket: you can write code in it, and then run it to see what happens.
 
   <iframe src="https://trinket.io/embed/python/0d2e8c2dac" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
@@ -64,13 +64,11 @@ Try to complete each of the challenges below.
 
 ## Repetition
 
-Repeating lines of code is one of the fastest ways to get something done. Quite often in computer science, it makes more sense to repeat lines of code rather than write out another instructions. For example, the square you created earlier uses the same two instructions four times. Rather than writing them out four times, you could write them out once but add an instruction to repeat them.
+Repeating lines of code is one of the fastest ways to get something done. Quite often in computer science, it makes more sense to repeat lines of code rather than write out another set of instructions. For example, the square you created earlier uses the same two instructions four times. Rather than writing them out four times, you could write them out once but add an instruction to repeat them.
 
-In Python there are two types of loops that you are likely to want to use: A `while` loop and a `for` loop. 
-- If you want a section of code to repeat forever, or until a condition is set, then a `while` loop might be best. 
-- If you want to loop for a set number of times, then a `for` loop is preferable. 
+In Python there are two types of loops that you are likely to want to use: a `while` loop and a `for` loop. If you want a section of code to repeat forever, or until a condition is set, then a `while` loop might be best. If you want to loop for a set number of times, then a `for` loop is preferable. 
 
-1. Below I've used a `while True` loop. This means that the code inside the loop (or indented) will repeat forever. You can try it in trinket to see what it does, but remember it will loop **forever**!
+1. Here, we have used a `while True` loop. This means that the code inside the loop (i.e. the code which is indented) will repeat forever. You can try it in Trinket to see what it does, but remember it will loop **forever**!
 
   ```python
   from turtle import Turtle, Screen
@@ -100,9 +98,9 @@ In Python there are two types of loops that you are likely to want to use: A `wh
       turtle.right(90)
   ```
 
-1. Copy and paste this code into the trinket above and run it. The turtle has been asked to repeat two instructions 4 times to make a square.
+1. Copy and paste this code into the Trinket editor above and run it. The turtle has been asked to repeat two instructions four times to make a square.
 
-1. Once you have created one shape using a loop, you can repeat the shape again and again by putting it inside another loop. This is a great way to draw spirals. Adapt your code, by making it look like this:
+1. Once you have created one shape using a loop, you can repeat the shape again and again by putting it inside another loop. This is a great way to draw spirals. Adapt your code by making it look like this:
 
   ```python
   from turtle import Turtle, Screen
@@ -118,15 +116,14 @@ In Python there are two types of loops that you are likely to want to use: A `wh
   A spiral can be made by turning a small degree and then moving forward a small amount. The section of code for making a square is inside another `for` loop that repeats it 30 times, each time turning the cursor 25 degress to make a pleasing spiral shape.  
   
 ### Challenge
-*Try and complete each of the challenges below.*
+Try to complete each of the challenges below.
 
 1. Can you alter the `for` loop so that it draws a more interesting spiral using one of the shapes you made earlier, like a triangle or circle?
 
 1. Adding a few extra lines where you alter the variables `R`, `G`, and `B`, would allow you to make a multicoloured spiral. Have a go at creating a rainbow spiral.
 
 ## What next?
-- Become a python turtle expert by continuing with the [next page of Turtley Amazing](worksheet2.md)!
-- Learn how to use `functions` to [draw snowflakes](https://www.raspberrypi.org/learning/turtle-snowflakes/) using turtle. 
+- Become a Python turtle expert by continuing with the [next page of Turtley Amazing](worksheet2.md)!
+- Learn how to use `functions` to [draw snowflakes](https://www.raspberrypi.org/learning/turtle-snowflakes/) using Turtle. 
 - Create interactive stories using `lists` in Python with the [Storytime](https://www.raspberrypi.org/learning/storytime/) resource. 
-- Take your first steps [controlling physical objects](https://www.raspberrypi.org/learning/getting-started-with-gpio-zero
-) with Python and a Raspberry Pi. 
+- Take your first steps [controlling physical objects](https://www.raspberrypi.org/learning/getting-started-with-gpio-zero) with Python and a Raspberry Pi. 
