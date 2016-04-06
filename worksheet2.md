@@ -2,13 +2,13 @@
 
 Take your Python turtle skills to the next level. 
 
-## Better Spirals
+## Better spirals
 
 1. Have a go at reading over the code below and guessing what it does. Then run it to see if you were correct.
 
   <iframe src="https://trinket.io/embed/python/8f98ccf1fa" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-1. The first thing you'll probably notice is that this is going to take ages to run. We can speed things up a bit, though. Add in the following line, before the `for` loop.
+1. The first thing you'll probably notice is that this is going to take ages to run. We can speed things up a bit, though. Add in the following line, before the `for` loop:
 
   ```python
   turtle.speed(0)
@@ -19,7 +19,7 @@ Take your Python turtle skills to the next level.
 
 ## Loopy colours
 
-To get more interesting colours, you could write lots of colours in a long list, and then keep changing the colour of the turtle according to the colour of the list. You can create lists in Python, using square brackets `[ ]`
+To get more interesting colours, you could write lots of colours in a long list, and then keep changing the colour of the turtle according to the colour of the list. You can create lists in Python, using square brackets `[ ]`.
 
 Below is an example of a list of RGB colours:
 
@@ -31,18 +31,19 @@ colours = [(85, 211, 136), (197, 196, 126), (235, 233, 166), (25, 135, 222), (21
 
   <iframe src="https://trinket.io/embed/python/d58123d315" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-  The line `turtle.color(colours[i])` is telling the program to choose the "ith" item in the list. Remember that `i` starts from 0 and goes up to 9.
+  The line `turtle.color(colours[i])` is telling the program to choose the "`i`th" item in the list. Remember that `i` starts from 0 and goes up to 9.
   
 1. What if you want a longer line? Try changing the number of loops in the `for` loop to `range(20)` and see what happens. Do you get an error?
 
 ## Modulo to the rescue
+
 In the above example, you need a way to keep looping over the list items, so when `i` gets to 9, it will go back around and get the "0th" item from the list again. This is where the modulo operator `%` can help you out.
 
 1. Look at the code below: run it and see if you can figure out what is going on.
 
   <iframe src="https://trinket.io/embed/python/8fd77a1942" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-1. Try changing the numbers in the `print`. There are some example to try below
+1. Try changing the numbers in the `print` command. There are some examples to try below:
 
   ```python
   print(12 % 6)
@@ -73,12 +74,12 @@ You can now have a go at creating a list of colours that's a little longer than 
 
 ## Putting it all together
 
-You can now use the while loops along with the spiral code to make a really pretty spiral. Have a look at the code below, and make sure you understand what it is doing. Try playing with the value of the variables in the loops, to see what effect this has on the output.
+You can now use the `while` loops along with the spiral code to make a really pretty spiral. Have a look at the code below, and make sure you understand what it is doing. Try playing with the value of the variables in the loops, to see what effect this has on the output.
 
   <iframe src="https://trinket.io/embed/python/91a1daf84e" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-## What Next?
+## What next?
 
-- Learn how to use `functions` to [draw snowflakes](https://www.raspberrypi.org/learning/turtle-snowflakes/) using turtle. 
+- Learn how to use `functions` to [draw snowflakes](https://www.raspberrypi.org/learning/turtle-snowflakes/) using Turtle. 
 - Create interactive stories using `lists` in Python with the [Storytime](https://www.raspberrypi.org/learning/storytime/) resource. 
 - Take your first steps [controlling physical objects](https://www.raspberrypi.org/learning/getting-started-with-gpio-zero) with Python and a Raspberry Pi. 
