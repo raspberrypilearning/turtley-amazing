@@ -2,7 +2,7 @@
 
 Take your first steps with the programming language Python by learning to draw shapes, patterns, and spirals. 
 
-## Is it Art, Maths, or Computer Science?
+## Is it art, maths, or computer science?
 
 Have a look at the image below. How would you describe it? Is is art, maths, or computer science? 
 
