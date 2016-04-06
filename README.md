@@ -2,7 +2,7 @@
 
 ![](cover.png)
 
-In this resource you will take your first steps with the programming langauge Python to draw shapes, patterns and spirals. You will use a module named Turtle. Along the way you will learn how to think in sequences, and use loops to repeat a sequence. This is a great stepping stone from a visiual programming language like Scratch to the text based environment of Python. 
+In this resource you will take your first steps with the programming langauge Python to draw shapes, patterns and spirals. You will use a module named Turtle. Along the way you will learn how to think in sequences, and use loops to repeat a sequence. This is a great stepping stone from a visiual programming language like Scratch to the text-based environment of Python. 
 
 By making patterns with Python code you will learn:
 
