@@ -1,6 +1,6 @@
 # Turtley Amazing
 
-In this resource you will take your first steps with the programming language Python to draw shapes, patterns, and spirals. 
+Take your first steps with the programming language Python by learning to draw shapes, patterns, and spirals. 
 
 ## Is it Art, Maths, or Computer Science?
 
