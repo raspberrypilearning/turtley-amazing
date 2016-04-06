@@ -2,15 +2,15 @@
 
 ## Is it Art, Maths, or Computer Science?
 
-Have a look at the image below. How would you classify this?
+Have a look at the image below. How would you describe it? Is is art, maths, or computer science? 
 
 ![](images/screen1.png)
 
-It's a computer generated image, but to make it requires an understanding of Art, Maths and Computer Science. Let's see how you too can make images just like this.
+It's a computer generated image, but to make it requires an understanding of art, maths and computer science. Let's see how you too can make images just like this.
 
 ## Drawing a line
 
-The image above is made up of lines and only lines! To get started, you need to know how to draw a line using a little bit of python code. Below is an interactive Python environment, in which you can write code and then run it to see what happens.
+The image above is made up of lines and only lines! To get started, you need to know how to draw a line using a little bit of Python code. Below is an interactive Python environment: you can write code in it, and then run it to see what happens.
 
   <iframe src="https://trinket.io/embed/python/0d2e8c2dac" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
@@ -19,7 +19,7 @@ The image above is made up of lines and only lines! To get started, you need to 
 
 ## Turning
 
-You've used code to draw a line. Good work! Now let's try making the *turtle* turn around. To do this you need to instruct the turtle not only to move forward, but also to turn right or left. 
+You've used code to draw a line. Good work! Now let's try making the turtle turn around. To do this you need to instruct the turtle not only to move forward, but also to turn right or left. 
 
   <iframe src="https://trinket.io/embed/python/88c91b8dfb" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
@@ -30,12 +30,12 @@ You've used code to draw a line. Good work! Now let's try making the *turtle* tu
 1. Complete the square shape you've started by adding the next lines of code and press **Run**. Keep trying until you get it right. 
 
 ### Challenge
-*Try and complete each of the challenges below.*
+Try to complete each of the challenges below.
 
-1.  Draw a rectangle - Two of the four sides need to be longer.
-1.  Draw a triangle - How many degress do you need to turn?
-1.  Draw a cross - Backwards and forwards work well together.
-2.  Draw a circle - What happens if you turn lots? 
+1.  Draw a rectangle: two of the four sides need to be longer.
+1.  Draw a triangle: how many degrees do you need to turn?
+1.  Draw a cross: backwards and forwards work well together.
+2.  Draw a circle: what happens if you turn lots? 
 
 ## Changing colours
 The default colour for the pen used by the turtle cursor is black, and the default background colour is white. You can change the colours to make your shapes look even better.
@@ -47,20 +47,20 @@ The default colour for the pen used by the turtle cursor is black, and the defau
   Variables are a way of storing a value, and giving it a name. For instance there is a variable name `R` with a value of `255`. 
 
 1. Run the code and see what happens. 
-1. Try changing the values of the three variables, and see what happens. (Note - the maximum value is 255, and after this there will be no affect.) What do you think R, G and B represent?
+1. Try changing the values of the three variables, and see what happens. (Note: the maximum value is 255, and after this there will be no effect.) What do you think R, G and B represent?
 
-  You can change the value of your variables either by setting them to a new value, or by increasing and decreasing them.
+  You can change the value of your variables either by setting them to a new value, or by increasing and decreasing them?
 
 1.  You can change the colour of the turtle as well. Run the code below to see what happens:
 
   <iframe src="https://trinket.io/embed/python/ab6732d60e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### Challenge 
-*Try and complete each of the challenges below.*
+Try to complete each of the challenges below.
 
 1.  Complete the triangle above with a colour of your choice
-1.  Draw a square with sides that are 4 different different shades of red
-1.  Draw a cross made of 4 different colours
+1.  Draw a square with sides which are four different different shades of red
+1.  Draw a cross made of four different colours
 
 ## Repetition
 
