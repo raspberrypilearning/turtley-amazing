@@ -15,7 +15,7 @@ Take your Python turtle skills to the next level.
   ```
 
 1. Run the code again: it should be a little faster.
-1. Our code has made a multicoloured spiral, by changing the `R`, `G`, and `B` variables. The colours are a little one-dimensional, though. Can you do a better job?
+1. Our code has made a multicoloured spiral by changing the `R`, `G`, and `B` variables. The colours are a little one-dimensional, though. Can you do a better job?
 
 ## Loopy colours
 
