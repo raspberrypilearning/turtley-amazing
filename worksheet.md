@@ -120,7 +120,7 @@ Try to complete each of the challenges below.
 
 1. Can you alter the `for` loop so that it draws a more interesting spiral using one of the shapes you made earlier, like a triangle or circle?
 
-1. Adding a few extra lines where you alter the variables `R`, `G`, and `B`, would allow you to make a multicoloured spiral. Have a go at creating a rainbow spiral.
+1. Adding a few extra lines where you alter the variables `R`, `G`, and `B` would allow you to make a multicoloured spiral. Have a go at creating a rainbow spiral.
 
 ## What next?
 - Become a Python turtle expert by continuing with the [next page of Turtley Amazing](worksheet2.md)!
