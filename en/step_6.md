@@ -1,21 +1,27 @@
-## Turning
+## Changing colours
 
-You've used code to draw a line. Good work! Now let's try making the turtle turn around. To do this you need to instruct the turtle not only to move forward, but also to turn right or left. 
+The default colour for the pen used by the turtle cursor is black, and the default background colour is white. You can change the colours to make your shapes look even better.
 
-  <iframe src="https://trinket.io/embed/python/88c91b8dfb" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+- Look at the code below. It contains three variables called `R`, `G`, and `B`.
 
-- What do you think will happen in the code above? Click on **Run** to see if you were right. 
+  <iframe src="https://trinket.io/embed/python/b964b7d3ce" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-  `turtle.right(90)` turns the cursor 90 degrees right. You can also turn left with `turtle.left(90)`. To change the amount that the cursor turns, simply change the value of degrees. 
+  Variables are a way of storing a value and giving it a name. For instance, there is a variable name `R` with a value of `255`. 
 
-- Complete the square shape you've started by adding the next lines of code and press **Run**. Keep trying until you get it right. 
+- Run the code and see what happens. 
+- Try changing the values of the three variables, and see what happens. (Note: the maximum value is 255, and after this there will be no effect.) What do you think R, G, and B represent?
 
-### Challenge
+  You can change the value of your variables either by setting them to a new value, or by increasing and decreasing them.
+
+-  You can change the colour of the turtle as well. Run the code below to see what happens:
+
+  <iframe src="https://trinket.io/embed/python/ab6732d60e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+### Challenge 
 
 Try to complete each of the challenges below.
 
--  Draw a rectangle: two of the four sides need to be longer.
--  Draw a triangle: how many degrees do you need to turn?
--  Draw a cross: backwards and forwards work well together.
-2.  Draw a circle: what happens if you turn lots? 
+-  Complete the triangle above with a colour of your choice.
+-  Draw a square with sides which are four different shades of red.
+-  Draw a cross made of four different colours.
 

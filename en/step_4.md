@@ -1,8 +1,9 @@
-## Is it art, maths, or computer science?
+## Drawing a line
 
-Have a look at the image below. How would you describe it? Is is art, maths, or computer science? 
+The image above is made up of lines and only lines! To get started, you need to know how to draw a line using a little bit of Python code. Below is an interactive Python environment called Trinket: you can write code in it, and then run it to see what happens.
 
-![](images/screen1.png)
+  <iframe src="https://trinket.io/embed/python/0d2e8c2dac" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-It's a computer-generated image, but making it requires an understanding of art, maths, and computer science. Let's see how you too can make images just like this.
+- Click on **Run** to see the code working.
+- Now try changing the number in the line `turtle.forward(100)`, click on **Run** again and see what happens.
 
