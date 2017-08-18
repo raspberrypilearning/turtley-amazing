@@ -1,18 +1,27 @@
-## Loopy colours
+## Modulo to the rescue
 
-To get more interesting colours, you could write lots of colours in a long list, and then keep changing the colour of the turtle according to the colour of the list. You can create lists in Python, using square brackets `[ ]`.
+In the above example, you need a way to keep looping over the list items, so when `i` gets to 9, it will go back around and get the "0th" item from the list again. This is where the modulo operator `%` can help you out.
 
-Below is an example of a list of RGB colours:
+- Look at the code below: run it and see if you can figure out what is going on.
 
-```python
-colours = [(85, 211, 136), (197, 196, 126), (235, 233, 166), (25, 135, 222), (211, 64, 159), (159, 165, 106), (178, 160, 125), (36, 192, 70), (231, 184, 204), (63, 203, 219)]
-```
+  <iframe src="https://trinket.io/embed/python/8fd77a1942" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-- This next bit gets a bit complicated. Have a look at the code below, then run it to see what happens.
+- Try changing the numbers in the `print` command. There are some examples to try below:
 
-  <iframe src="https://trinket.io/embed/python/d58123d315" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+  ```python
+  print(12 % 6)
+  print(6 % 6)
+  print(0 % 6)
+  print(13 % 6)
+  print(17 % 6)
+  print(1 % 6)
+  print(8 % 6)
+  print(11 % 6)
+  ```
 
-  The line `turtle.color(colours[i])` is telling the program to choose the "`i`th" item in the list. Remember that `i` starts from 0 and goes up to 9.
-  
-- What if you want a longer line? Try changing the number of loops in the `for` loop to `range(20)` and see what happens. Do you get an error?
+- Did you figure it out? The `%` operator prints out the remainder of a division. For example, 15 ÷ 6 is 2 with a remainder of 3. Therefore 15 % 6 would be 3. We can use this operator to help with the problem of running off the end of the list. If the `range` goes above the length of the list, you can just do a `%` of the length of the list.
+
+- Have a look at the example below, and read through the code carefully to make sure you can see how the modulo operator is used.
+
+  <iframe src="https://trinket.io/embed/python/c56b5cb705" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
