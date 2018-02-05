@@ -3,14 +3,14 @@ title: Turtley Amazing
 hero_image: images/banner.png
 description: In this resource you will take your first steps with the programming language Python
 original_url: https://raspberrypi.org/learning/turtley-amazing
-theme: red
+theme: violet
 duration: 2
 listed: true
 ingredient: false
 copyedit: true
 curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
 interests: ''
-technologies: rpi, physical computing, python
+technologies: python
 site_areas: ''
 steps:
 - title: Introduction
