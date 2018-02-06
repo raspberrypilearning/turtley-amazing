@@ -8,6 +8,12 @@ The default colour for the pen used by the turtle cursor is black, and the defau
 
   Variables are a way of storing a value and giving it a name. For instance, there is a variable name `R` with a value of `255`. 
 
+  The following line is commented out in the trinket above, but will be needed if you are using another editor. So if you are not working in Trinket, then remove the `#` symbol, to uncomment the line.
+  
+  ```python
+  screen.colormode(255)
+  ```
+
 - Run the code and see what happens. 
 - Try changing the values of the three variables, and see what happens. (Note: the maximum value is 255, and after this there will be no effect.) What do you think R, G, and B represent?
 
