@@ -74,11 +74,11 @@ G = 0
 B = 124
 
 for i in range(30):
-	turtle.color((R, G, B))
+    turtle.color((R, G, B))
     for i in range(4):
         turtle.forward(100)
         turtle.right(90)
-		##ADD SOMETHING HERE
+        ##ADD SOMETHING HERE
     turtle.right(25)
 ```
 --- /hint --- --- hint ---
@@ -95,12 +95,12 @@ G = 0
 B = 124
 
 for i in range(30):
-	turtle.color((R, G, B))
+    turtle.color((R, G, B))
     for i in range(4):
         turtle.forward(100)
         turtle.right(90)
-		R -= 1
-		G += 1
+        R -= 1
+        G += 1
     turtle.right(25)
 ```
 --- /hint --- --- /hints ---
