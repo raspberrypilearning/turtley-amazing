@@ -4,6 +4,6 @@ The image above is made up of lines and only lines! To get started, you need to 
 
   <iframe src="https://trinket.io/embed/python/0d2e8c2dac" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-- Click on **Run** (![arrow](images/arrow.png) to see the code working.
-- Now try changing the number in the line `turtle.forward(100)`, click on **Run** (![arrow](images/arrow.png) again and see what happens.
+- Click on **Run** ![arrow](images/arrow.png) to see the code working.
+- Now try changing the number in the line `turtle.forward(100)`, click on **Run** ![arrow](images/arrow.png) again and see what happens.
 

@@ -17,5 +17,5 @@ Try to complete each of the challenges below.
 -  Draw a rectangle: two of the four sides need to be longer.
 -  Draw a triangle: how many degrees do you need to turn?
 -  Draw a cross: backwards and forwards work well together.
-2.  Draw a circle: what happens if you turn lots? 
+-  Draw a circle: what happens if you turn lots? 
 
