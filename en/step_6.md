@@ -49,7 +49,7 @@ Try to complete each of the challenges below.
 -  Draw a cross made of four different colours.
 
 --- hints --- --- hint ---
-To change a colour you can just keep adding or subtracting values on original variable
+To change a colour, you can just keep adding or subtracting values from the original variables.
 --- /hint --- --- hint ---
 So you could alter colours by doing the following:
 ```python
