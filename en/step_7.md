@@ -59,3 +59,48 @@ Try to complete each of the challenges below.
 
 - Adding a few extra lines where you alter the variables `R`, `G`, and `B` would allow you to make a multicoloured spiral. Have a go at creating a rainbow spiral.
 
+--- hints --- --- hint ---
+Just like in the previous exercise, you can add to or subtract from the `R`, `G`, and `B` variables.
+--- /hint --- --- hint ---
+Just alter the variables within the `for` loop:
+```python
+from turtle import Turtle, Screen
+    
+turtle = Turtle()
+screen = Screen()
+
+R = 255
+G = 0
+B = 124
+
+for i in range(30):
+    turtle.color((R, G, B))
+    for i in range(4):
+        turtle.forward(100)
+        turtle.right(90)
+        ##ADD SOMETHING HERE
+    turtle.right(25)
+```
+--- /hint --- --- hint ---
+Try this to get started:
+
+```python
+from turtle import Turtle, Screen
+    
+turtle = Turtle()
+screen = Screen()
+
+R = 255
+G = 0
+B = 124
+
+for i in range(30):
+    turtle.color((R, G, B))
+    for i in range(4):
+        turtle.forward(100)
+        turtle.right(90)
+        R -= 1
+        G += 1
+    turtle.right(25)
+```
+--- /hint --- --- /hints ---

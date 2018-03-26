@@ -1,19 +1,19 @@
 ## Modulo to the rescue
 
-In the above example, you need a way to keep looping over the list items, so when `i` gets to 9, it will go back around and get the "0th" item from the list again. This is where the modulo operator `%` can help you out.
+In the previous example, you need a way to keep looping over the list items, so when `i` gets to 9, it will go back around and get the "0th" item from the list again. This is where the modulo operator `%` can help you out.
 
-- Look at the code below: run it and see if you can figure out what is going on.
+- Look at the code below: run it and see if you can figure out what is going on. You shoud get `0` to begin with.
 
   <iframe src="https://trinket.io/embed/python/8fd77a1942" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 - Try changing the numbers in the `print` command. There are some examples to try below:
 
   ```python
+  print(17 % 6)
   print(12 % 6)
+  print(13 % 6)
   print(6 % 6)
   print(0 % 6)
-  print(13 % 6)
-  print(17 % 6)
   print(1 % 6)
   print(8 % 6)
   print(11 % 6)
