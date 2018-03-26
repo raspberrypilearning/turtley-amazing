@@ -22,9 +22,9 @@ The default colour for the pen used by the turtle cursor is black, and the defau
 ---
 title: Answer
 ---
-`R`, `G` and `B` represent how much Red, Green and Blue will be used in the colour. Each can have any value from `0` up to `255`.
+`R`, `G` and `B` represent how much red, green, and blue will be used in the colour. Each can have any value from `0` up to `255`.
 
-So to make yellow you could try the following:
+So to make yellow, you could try the following:
 ```python
 R = 255
 G = 255
