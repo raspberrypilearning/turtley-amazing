@@ -1,6 +1,6 @@
-## Drawing a line
+## एक रेखा खींचना
 
-The image above is made up of lines and only lines! To get started, you need to know how to draw a line using a little bit of Python code. Below is an interactive Python environment called Trinket: you can write code in it, and then run it to see what happens. <iframe src="https://trinket.io/embed/python/0d2e8c2dac" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+ऊपर की छवि रेखाओं और केवल रेखाओं से बनी है! शुरू करने के लिए, आपको यह जानने की आवश्यकता है कि थोड़ा-सा Python कोड का उपयोग करके रेखा कैसे खींच सकते हैं। नीचे Trinket नामक एकइंटरेक्टिव Python परिवेश है: आप इसमें कोड लिख सकते हैं, और फिर यह देखने के लिए इसे चला सकते हैं कि क्या होता है। <iframe src="https://trinket.io/embed/python/0d2e8c2dac" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
-- Click on **Run** ![arrow](images/arrow.png) to see the code working.
-- Now try changing the number in the line `turtle.forward(100)`, click on **Run** ![arrow](images/arrow.png) again and see what happens.
+- यह देखने के लिए **Run** (चलाएँ) ![arrow](images/arrow.png) पर क्लिक करें कि कोड काम कर रहा है।
+- अब पंक्ति `turtle.forward(100)` में संख्या को बदलने की कोशिश करें, फिर से **Run** (चलाएँ) ![arrow](images/arrow.png) पर क्लिक करें और देखें कि क्या होता है।
