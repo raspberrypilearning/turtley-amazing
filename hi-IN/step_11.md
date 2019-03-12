@@ -1,7 +1,7 @@
-## Enormous lists
+## भारी सूचियाँ
 
-You can now have a go at creating a list of colours that's a little longer than before. To do this you can use a `while` loop. Unlike a `for` loop, a `while` loop keeps running until a specific condition has been met.
+अब आप रंगों की एक ऐसी सूची बनाना शुरू कर सकते हैं जो पहले से थोड़ी लंबी हो। ऐसा करने के लिए आप `while` (जबकि) लूप का उपयोग कर सकते हैं। `for` (के लिए) लूप के विपरीत, `while` (जबकि) लूप तब तक चलता रहता है जब तक कोई विशिष्ट शर्त पूरी नहीं हो जाती है।
 
-- Look at the code below. The `while` loop is used to gradually increase the value of `G` until it reaches 255. Each time, the colours are added to the list. <iframe src="https://trinket.io/embed/python/cfb2a665a8" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+- नीचे दिए गए कोड को देखें। `while` (जबकि) लूप का उपयोग `G` के मान को धीरे-धीरे बढ़ाने के लिए किया जाता है जब तक यह 255 तक नहीं पहुँच जाता है। प्रत्येक बार, सूची में रंग जोड़े जाते हैं। <iframe src="https://trinket.io/embed/python/cfb2a665a8" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
-- Can you add in two more `while` loops to add more colours? The next loop should gradually decrease `R` until it reaches 0. The final one should then increase `B` until it reaches 255. Have a go, but if you get stuck, all will be revealed in the last section.
+- अधिक रंग जोड़ने के लिए क्या आप दो और `while` (जबकि) लूप जोड़ सकते हैं? अगले लूप को `R` को धीरे-धीरे कम करना चाहिए जब तक यह 0 तक नहीं पहुँच जाता है। इसके बाद अंतिम लूप को `B` को तब तक ढ़ाना चाहिए जब तक यह 255 तक नहीं पहुँच जाता है। अब शुरू करें, लेकिन अगर आप अटक जाते हैं, तो अंतिम भाग में सब कुछ प्रकट हो जाएगा।
