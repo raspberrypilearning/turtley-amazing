@@ -1,15 +1,15 @@
-## Loopy colours
+## लूपी रंग
 
-To get more interesting colours, you could write lots of colours in a long list, and then keep changing the colour of the turtle according to the colour of the list. You can create lists in Python, using square brackets `[ ]`.
+अधिक रोचक रंग प्राप्त करने के लिए, आप एक लंबी सूची में बहुत से रंग लिख सकते हैं, और फिर सूची के रंग के अनुसार कछुए के रंग को बदलते रह सकते हैं। आप चौकोर कोष्ठकों `[ ]` का उपयोग करके Python में सूचियाँ बना सकते हैं।
 
-Below is an example of a list of RGB colours:
+नीचे RGB रंगों की सूची का एक उदाहरण है:
 
 ```python
-colours = [(85, 211, 136), (197, 196, 126), (235, 233, 166), (25, 135, 222), (211, 64, 159), (159, 165, 106), (178, 160, 125), (36, 192, 70), (231, 184, 204), (63, 203, 219)]
+रंग = [(85, 211, 136), (197, 196, 126), (235, 233, 166), (25, 135, 222), (211, 64, 159), (159, 165, 106), (178, 160, 125), (36, 192, 70), (231, 184, 204), (63, 203, 219)]
 ```
 
-- This next bit gets a bit complicated. Have a look at the code below, then run it to see what happens. <iframe src="https://trinket.io/embed/python/d58123d315" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+- यह अगला अंश थोड़ा जटिल हो जाता है। नीचे दिए गए कोड पर एक नज़र डालें, फिर यह देखने के लिए इसे चलाएँ कि क्या होता है। <iframe src="https://trinket.io/embed/python/d58123d315" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
-The line `turtle.color(colours[i])` is telling the program to choose the "`i`th" item in the list. Remember that `i` starts from 0 and goes up to 9.
+पंक्ति `turtle.color(colours[i])` प्रोग्राम को बता रही है कि सूची में से "`i`" वाली आइटम को चुनना है। याद रखें कि `i` 0 से शुरू होता है और 9 तक जाता है।
 
-- What if you want a longer line? Try changing the number of loops in the `for` loop to `range(20)` and see what happens. Do you get an error?
+- यदि आप लंबी पंक्ति चाहते हैं तो क्या करना होगा? `for` (के लिए) लूप में लूपों की संख्या को `range(20)` में बदलने का प्रयास करें और देखें कि क्या होता है। क्या आपको कोई त्रुटि मिलती है?
