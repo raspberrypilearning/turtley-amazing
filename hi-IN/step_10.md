@@ -1,10 +1,10 @@
-## Modulo to the rescue
+## बचाव के लिए मॉड्यूलो
 
-In the previous example, you need a way to keep looping over the list items, so when `i` gets to 9, it will go back around and get the "0th" item from the list again. This is where the modulo operator `%` can help you out.
+पिछले उदाहरण में, आपको सूची कीआइटमों को बार-बार लूप करते रहने का एक तरीका चाहिए, ताकि `i` जब 9 तक पहुँच जाएगा, तो यह वापस वापस जाकर दी गई सूची से फिर से "0 वीं" आइटम प्राप्त करेगा। यही वह जगह है जहाँ मॉड्यूलो ऑपरेटर `%` आपकी मदद कर सकता है
 
-- Look at the code below: run it and see if you can figure out what is going on. You shoud get `0` to begin with. <iframe src="https://trinket.io/embed/python/8fd77a1942" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+- नीचे दिए गए कोड को देखें: इसे चलाएँ और देखें कि क्या आप यह पता लगा सकते हैं कि क्या हो रहा है। आरंभ में आपको `0` मिलना चाहिए। <iframe src="https://trinket.io/embed/python/8fd77a1942" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
-- Try changing the numbers in the `print` command. There are some examples to try below:
+- `print` (प्रिंट) कमांड में संख्याओं को बदलने का प्रयास करें। नीचे प्रयास करने के लिए कुछ उदाहरण हैं:
     
     ```python
     print(17 % 6)
@@ -17,6 +17,6 @@ In the previous example, you need a way to keep looping over the list items, so 
     print(11 % 6)
     ```
 
-- Did you figure it out? The `%` operator prints out the remainder of a division. For example, 15 ÷ 6 is 2 with a remainder of 3. Therefore 15 % 6 would be 3. We can use this operator to help with the problem of running off the end of the list. If the `range` goes above the length of the list, you can just do a `%` of the length of the list.
+- क्या आप इसका पता लगा सके? `%` ऑपरेटर किसी विभाजन के बचे शेष को प्रिंट करता है। उदाहरण के लिए, 15 ÷ 6 शेष 3 के साथ 2 होता है। इसलिए 15 % 6 3 होगा। हम सूची के अंत से निकल जाने की समस्या में मदद करने के लिए इस ऑपरेटर का उपयोग कर सकते हैं। अगर `range` (रेंज) सूची की लंबाई से अधिक हो जाती है, तो आप सूची की लंबाई का `%` कर सकते हैं।
 
-- Have a look at the example below, and read through the code carefully to make sure you can see how the modulo operator is used. <iframe src="https://trinket.io/embed/python/c56b5cb705" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+- नीचे दिए गए उदाहरण पर नज़र डालें, और यह सुनिश्चित करने के लिए कोड को ध्यान से पढ़ें कि आप यह देख पाते हैं कि मॉड्यूलो ऑपरेटर का उपयोग कैसे किया जाता है। <iframe src="https://trinket.io/embed/python/c56b5cb705" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
