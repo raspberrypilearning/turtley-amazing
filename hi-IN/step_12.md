@@ -1,3 +1,3 @@
-## Putting it all together
+## इस सब को एक जगह लाना
 
-You can now use the `while` loops along with the spiral code to make a really pretty spiral. Have a look at the code below, and make sure you understand what it is doing. Try playing with the value of the variables in the loops, to see what effect this has on the output. <iframe src="https://trinket.io/embed/python/91a1daf84e" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+अब आप वास्तव में एक सुंदर घुमावदार आकार बनाने के लिए घुमावदार आकार के कोड के साथ-साथ `while` (जबकि) लूपों का उपयोग कर सकते हैं। नीचे दिए गए कोड पर एक नज़र डालें, और सुनिश्चित करें कि आप समझते हैं कि यह क्या कर रहा है। लूप में वेरिएबल के मानों के साथ खेलने का प्रयास करें, यह देखने के लिए कि इसका आउटपुट पर क्या प्रभाव पड़ता है। <iframe src="https://trinket.io/embed/python/91a1daf84e" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
