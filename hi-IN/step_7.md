@@ -1,10 +1,10 @@
-## Repetition
+## दोहराना
 
-Repeating lines of code is one of the fastest ways to get something done. Quite often in computer science, it makes more sense to repeat lines of code rather than write out another set of instructions. For example, the square you created earlier uses the same two instructions four times. Rather than writing them out four times, you could write them out once but add an instruction to repeat them.
+कोड की पंक्तियों को दोहराना किसी चीज़ को करने का सबसे तेज़ तरीका है। कंप्यूटर विज्ञान में अक्सर, निर्देशों का एक और सेट लिखने के बजाय कोड की पंक्तियों को दोहराने में अधिक समझदारी होती है। उदाहरण के लिए, आपके द्वारा पहले बनाए गए चौकोर में उन्हीं दो निर्देशों का चार बार उपयोग किया जाता है। उन्हें चार बार लिखने के बजाय, आप उन्हें एक बार लिख सकते हैं लेकिन उन्हें दोहराने के लिए एक निर्देश जोड़ सकते हैं।
 
-In Python there are two types of loops that you are likely to use: a `while` loop and a `for` loop. If you want a section of code to repeat forever, or until a condition is set, then a `while` loop might be best. If you want to loop for a set number of times, then a `for` loop is preferable.
+Python में दो प्रकार के लूप होते हैं जिनका आपके द्वारा उपयोग करने की संभावना है: `while` (जबकि) लूप और `for` (के लिए) लूप। यदि आप कोड के किसी हिस्से को हमेशा के लिए, या किसी शर्त के सेट होने तक दोहराना चाहते हैं, तो `while` (जबकि) लूप सबसे अच्छा हो सकता है। यदि आप किसी निश्चित संख्या के लिए लूप करना चाहते हैं, तो `for` (के लिए) लूप बेहतर है।
 
-- Here, we have used a `while True` loop. This means that the code inside the loop (i.e. the code which is indented) will repeat forever. You can try it in Trinket to see what it does, but remember it will loop **forever**!
+- यहाँ, हमने `while True` (जबकि यह सच है) लूप का उपयोग किया है। इसका मतलब है कि लूप के अंदर का कोड (अर्थात इंडेंट किया गया कोड) हमेशा के लिए दोहराया जाएगा। आप यह देखने के लिए Trinket में कोशिश कर सकते हैं कि यह क्या करता है, लेकिन याद रखें कि यह लूप **forever** (हमेशा के लिए) होगा!
     
     ```python
     from turtle import Turtle, Screen
@@ -16,11 +16,11 @@ In Python there are two types of loops that you are likely to use: a `while` loo
       turtle.right(1)
     ```
     
-    This type of loop is not going to be very useful for drawing shapes with Turtle where you want to be more precise.
+    जहाँ आप अधिक सटीक होना चाहते हैं वहाँ इस प्रकार का लूप Turtle से आकृतियाँ बनाने के लिए अधिक उपयोगी नहीं होगा।
 
-- In this example, a `for` loop has been used. Press **Run** to see what happens. <iframe src="https://trinket.io/embed/python/b89b6f5457" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+- इस उदाहरण में, `for` (के लिए) लूप का उपयोग किया गया है। क्या होता है यह देखने के लिए **Run** (चलाएँ) दबाएँ। <iframe src="https://trinket.io/embed/python/b89b6f5457" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
-A `for` loop repeats instructions a set number of times, in this case 8 times. A `for` loop has an associated variable (called `i` here). In this example, `i` starts from `0` and increases by `1` each time. Let's apply this to the code to draw a square:
+`for` (के लिए) लूप निर्देशों को निर्धारित संख्या में दोहराता है, इस मामले में यह 8 बार है। `for` (के लिए) लूप का एक संबद्ध वेरिएबल है (जिसे यहाँ `i` कहा गया है)। इस उदाहरण में, `i` `0` से शुरू होता है और इसमें हर बार `1` की बढ़ोतरी होती है। आइए इस कोड को एक चौकोर बनाने के लिए लागू करें:
 
 ```python from turtle import Turtle, Screen
 
@@ -28,9 +28,9 @@ turtle = Turtle()
 
 for i in range(4): turtle.forward(100) turtle.right(90) ```
 
-- Copy and paste this code into the Trinket editor above and run it. The turtle has been asked to repeat two instructions four times to make a square.
+- इस कोड को ऊपर Trinket संपादक में कॉपी और पेस्ट करें और इसे चलाएँ। चौकोर बनाने के लिए कछुए को दो निर्देशों को चार बार दोहराने के लिए कहा गया है।
 
-- Once you have created one shape using a loop, you can repeat the shape again and again by putting it inside another loop. This is a great way to draw spirals. Adapt your code by making it look like this:
+- एक बार जब आप लूप का उपयोग करके एक आकार बना लेते हैं, तो आप उसे एक और लूप के अंदर रखकर उस आकार को बार-बार दोहरा सकते हैं। घुमावदार रेखाएँ खींचने का यह एक बढ़िया तरीका है। अपने कोड को इस तरह का बनाकर उसे अनुकूल बनाएँ:
     
     ```python
     from turtle import Turtle, Screen
@@ -44,17 +44,17 @@ for i in range(4): turtle.forward(100) turtle.right(90) ```
       turtle.right(25)
     ```
     
-    A spiral can be made by turning a small degree and then moving forward a small amount. The section of code for making a square is inside another `for` loop that repeats it 30 times, each time turning the cursor 25 degress to make a pleasing spiral shape.
+    थोड़ी डिग्री तक घुमाकर और फिर थोड़ी दूर तक आगे ले जाकर एक घुमावदार आकार बनाया जा सकता है। एक चौकोर बनाने के लिए कोड का खंड एक दूसरे `for` (के लिए) के अंदर है जो इसे 30 बार दोहराता है, एक मोहक घुमावदार आकार बनाने के लिए यह कर्सर को हर बार 25 डिग्री घुमा देता है।
 
-### Challenge
+### चुनौती
 
-Try to complete each of the challenges below.
+नीचे दी गई प्रत्येक चुनौती को पूरा करने का प्रयास करें।
 
-- Can you alter the `for` loop so that it draws a more interesting spiral using one of the shapes you made earlier, like a triangle or circle?
+- क्या आप `for` (के लिए) लूप को इस तरह बदल सकते हैं कि यह आपके द्वारा पहले बनाए गए आकारों में से किसी का उपयोग करके एक और अधिक दिलचस्प घुमावदार आकार बना दे, जैसे कोई त्रिभुज या सर्कल?
 
-- Adding a few extra lines where you alter the variables `R`, `G`, and `B` would allow you to make a multicoloured spiral. Have a go at creating a rainbow spiral.
+- वेरिएबल `R`, `G`, और `B` को बदलकर कुछ अतिरिक्त पंक्तियाँ जोड़कर आप एक बहुरंगी घुमावदार आकार बना सकते हैं। एक इंद्रधनुषी घुमावदार आकृति तैयार करना शुरू करें।
 
-\--- hints \--- \--- hint \--- Just like in the previous exercise, you can add to or subtract from the `R`, `G`, and `B` variables. \--- /hint \--- \--- hint \--- Just alter the variables within the `for` loop:
+\--- hints \--- \--- hint \--- पिछले अभ्यास की तरह, आप वेरिएबल `R`, `G`, और `B` में कुछ जोड़ या घटा सकते हैं। \--- /hint \--- \--- hint \--- बस `for` (के लिए) लूप के भीतर वेरिएबल को बदल दें:
 
 ```python
 from turtle import Turtle, Screen
@@ -75,7 +75,7 @@ for i in range(30):
     turtle.right(25)
 ```
 
-\--- /hint \--- \--- hint \--- Try this to get started:
+\--- /hint \--- \--- hint \--- शुरू करने के लिए इसे आजमाएँ:
 
 ```python
 from turtle import Turtle, Screen
