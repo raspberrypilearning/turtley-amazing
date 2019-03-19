@@ -36,7 +36,9 @@ B = 0
 
 आप अपने वेरिएबल के मान को या तो उनका नया मान सेट करके, या उन्हें बढ़ाकर और घटाकर बदल सकते हैं।
 
-- आप कछुए के रंग को भी बदल सकते हैं। निम्न कोड चलाएँ और देखें कि क्या होता है। <iframe src="https://trinket.io/embed/python/ab6732d60e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+- आप कछुए के रंग को भी बदल सकते हैं। निम्न कोड चलाएँ और देखें कि क्या होता है। 
+
+<iframe src="https://trinket.io/embed/python/ab6732d60e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
 ### चुनौती
 
