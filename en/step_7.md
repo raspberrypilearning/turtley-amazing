@@ -49,6 +49,7 @@ In Python there are two types of loops that you are likely to use: a `while` loo
           turtle.right(90)
       turtle.right(25)
   ```
+  
   A spiral can be made by turning a small degree and then moving forward a small amount. The section of code for making a square is inside another `for` loop that repeats it 30 times, each time turning the cursor 25 degress to make a pleasing spiral shape.  
   
 ### Challenge
@@ -59,10 +60,16 @@ Try to complete each of the challenges below.
 
 - Adding a few extra lines where you alter the variables `R`, `G`, and `B` would allow you to make a multicoloured spiral. Have a go at creating a rainbow spiral.
 
---- hints --- --- hint ---
+--- hints --- 
+--- hint ---
+
 Just like in the previous exercise, you can add to or subtract from the `R`, `G`, and `B` variables.
---- /hint --- --- hint ---
+
+--- /hint --- 
+--- hint ---
+
 Just alter the variables within the `for` loop:
+
 ```python
 from turtle import Turtle, Screen
     
@@ -81,7 +88,10 @@ for i in range(30):
         ##ADD SOMETHING HERE
     turtle.right(25)
 ```
---- /hint --- --- hint ---
+
+--- /hint --- 
+--- hint ---
+
 Try this to get started:
 
 ```python
@@ -103,4 +113,6 @@ for i in range(30):
         G += 1
     turtle.right(25)
 ```
---- /hint --- --- /hints ---
+
+--- /hint --- 
+--- /hints ---
