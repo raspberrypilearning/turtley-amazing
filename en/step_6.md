@@ -22,6 +22,7 @@ The default colour for the pen used by the turtle cursor is black, and the defau
 ---
 title: Answer
 ---
+
 `R`, `G` and `B` represent how much red, green, and blue will be used in the colour. Each can have any value from `0` up to `255`.
 
 So to make yellow, you could try the following:
@@ -48,10 +49,16 @@ Try to complete each of the challenges below.
 -  Draw a square with sides which are four different shades of red.
 -  Draw a cross made of four different colours.
 
---- hints --- --- hint ---
+--- hints --- 
+--- hint ---
+
 To change a colour, you can just keep adding or subtracting values from the original variables.
---- /hint --- --- hint ---
+
+--- /hint --- 
+--- hint ---
+
 So you could alter colours by doing the following:
+
 ```python
 R = 255
 G = 0
@@ -69,5 +76,6 @@ turtle.color((R, G, B))
 turtle.forward(100)
 turtle.right(120)
 ```
+
 --- /hint ---
 --- /hints ---
