@@ -45,7 +45,13 @@ B = 0
 - एक चौकोर बनाएँ जिसकी चारों साइडों पर लाल रंग के चार अलग-अलग शेड हों।
 - चार अलग-अलग रंगों से बना क्रॉस बनाएँ।
 
-\--- hints \--- \--- hint \--- रंग बदलने के लिए, आप केवल मूल वेरिएबल से मान को जोड़ना या घटाना जारी रख सकते हैं। \--- /hint \--- \--- hint \--- तो आप निम्नलिखित करके रंग बदल सकते हैं:
+\--- hints \--- \--- hint \---
+
+To change a colour, you can just keep adding or subtracting values from the original variables.
+
+\--- /hint \--- \--- hint \---
+
+So you could alter colours by doing the following:
 
 ```python
 R = 255
