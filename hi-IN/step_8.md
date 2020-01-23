@@ -1,4 +1,4 @@
-## बेहतर घुमावदार आकार
+## बेहतर घुमावदार
 
 - नीचे दिए गए कोड को पढ़कर देखें और यह अनुमान लगाने की कोशिश करें कि इससे क्या होता है। फिर यह देखने के लिए इसे चलाएँ कि क्या आप सही थे। <iframe src="https://trinket.io/embed/python/8f98ccf1fa" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
