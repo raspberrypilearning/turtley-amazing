@@ -54,7 +54,13 @@ for i in range(4): turtle.forward(100) turtle.right(90) ```
 
 - वेरिएबल `R`, `G`, और `B` को बदलकर कुछ अतिरिक्त पंक्तियाँ जोड़कर आप एक बहुरंगी घुमावदार आकार बना सकते हैं। एक इंद्रधनुषी घुमावदार आकृति तैयार करना शुरू करें।
 
-\--- hints \--- \--- hint \--- पिछले अभ्यास की तरह, आप वेरिएबल `R`, `G`, और `B` में कुछ जोड़ या घटा सकते हैं। \--- /hint \--- \--- hint \--- बस `for` (के लिए) लूप के भीतर वेरिएबल को बदल दें:
+\--- hints \--- \--- hint \---
+
+Just like in the previous exercise, you can add to or subtract from the `R`, `G`, and `B` variables.
+
+\--- /hint \--- \--- hint \---
+
+Just alter the variables within the `for` loop:
 
 ```python
 from turtle import Turtle, Screen
@@ -75,7 +81,9 @@ for i in range(30):
     turtle.right(25)
 ```
 
-\--- /hint \--- \--- hint \--- शुरू करने के लिए इसे आजमाएँ:
+\--- /hint \--- \--- hint \---
+
+Try this to get started:
 
 ```python
 from turtle import Turtle, Screen
