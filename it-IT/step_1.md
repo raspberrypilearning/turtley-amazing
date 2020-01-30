@@ -1,8 +1,8 @@
-## Che cosa creerai
+## What you will make
 
 In this resource you will take your first steps with the programming language Python to draw shapes, patterns, and spirals. You will use a module named Turtle. Along the way you will learn how to think in sequences, and use loops to repeat a sequence. This is a great stepping stone from a visual programming language like Scratch to the text-based environment of Python.
 
-## Che cosa imparerai
+## What you will learn
 
 By making patterns with Python code you will learn:
 
@@ -15,4 +15,4 @@ By making patterns with Python code you will learn:
 
 This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
 
-- [Combinare i costrutti base di un linguaggio di programmazione per risolvere un problema](https://www.raspberrypi.org/curriculum/programming/builder)
+- [Combine programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder)
