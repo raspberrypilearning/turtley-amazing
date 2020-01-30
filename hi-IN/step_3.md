@@ -1,7 +1,7 @@
-## यह कला है, गणित है, या कंप्यूटर विज्ञान है?
+## Is it art, maths, or computer science?
 
-नीचे दी गई छवि पर एक नज़र डालें। आप इसका वर्णन कैसे करेंगे? यह कला है, गणित है, या कंप्यूटर विज्ञान है?
+Have a look at the image below. How would you describe it? Is is art, maths, or computer science?
 
 ![](images/screen1.png)
 
-यह एक कंप्यूटर से उत्पन्न छवि है, लेकिन इसे बनाने के लिए कला, गणित, और कंप्यूटर विज्ञान की समझ होना आवश्यक है। आइए देखते हैं कि आप भी इस तरह छवियों को कैसे बना सकते हैं।
+It's a computer-generated image, but making it requires an understanding of art, maths, and computer science. Let's see how you too can make images just like this.
