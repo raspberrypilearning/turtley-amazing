@@ -1,3 +1,3 @@
-## Neye ihtiyacınız olacak
+## What you will need
 
 - An internet connected computer
