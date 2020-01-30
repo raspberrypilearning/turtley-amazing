@@ -1,3 +1,3 @@
-## 你會需要:
+## What you will need
 
 - An internet connected computer
