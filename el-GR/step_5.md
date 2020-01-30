@@ -8,7 +8,7 @@ You've used code to draw a line. Good work! Now let's try making the turtle turn
 
 - Complete the square shape you've started by adding the next lines of code and press **Run**. Keep trying until you get it right.
 
-### Πρόκληση
+### Challenge
 
 Try to complete each of the challenges below.
 
