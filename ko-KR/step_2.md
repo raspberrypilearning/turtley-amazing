@@ -1,3 +1,3 @@
-## 준비물
+## What you will need
 
 - An internet connected computer
