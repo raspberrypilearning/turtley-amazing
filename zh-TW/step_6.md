@@ -15,7 +15,7 @@ The following line is commented out in the trinket above, but will be needed if 
 
 - Try changing the values of the three variables, and see what happens. (Note: the maximum value is 255, and after this there will be no effect.) What do you think R, G, and B represent?
 
-## - - 自動隱藏選單 - -
+## \--- collapse \---
 
 ## title: Answer
 
@@ -29,7 +29,7 @@ G = 255
 B = 0
 ```
 
-- - 自動隱藏選單 - -
+\--- /collapse \---
 
 [[[generic-theory-simple-colours]]]
 
