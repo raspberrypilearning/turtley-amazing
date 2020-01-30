@@ -3,7 +3,7 @@ title: Turtley Amazing
 hero_image: images/banner.png
 description: In this resource you will take your first steps with the programming language Python
 original_url: https://raspberrypi.org/learning/turtley-amazing
-theme: 紫色
+theme: violet
 duration: 2
 listed: true
 ingredient: false
@@ -11,16 +11,16 @@ copyedit: true
 curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
 interests: art
 technologies: python
-site_areas: codeclub, webdev
+site_areas: projects
 hardware: ''
 software: python
 version: 3
-last_tested: 2017年1月1日
+last_tested: 2017-01-01
 steps:
   - 
-    title: 介绍
+    title: Introduction
   - 
-    title: 你将需要什么
+    title: What you will need
   - 
     title: Is it art, maths, or computer science?
   - 
@@ -42,4 +42,4 @@ steps:
   - 
     title: Putting it all together
   - 
-    title: 接下来还有什么？
+    title: What next?
