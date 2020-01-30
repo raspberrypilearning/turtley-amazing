@@ -1,7 +1,7 @@
 ---
-title: अद्भुत Turtle
+title: Turtley Amazing
 hero_image: images/banner.png
-description: इस संसाधन में आप प्रोग्रामिंग भाषा Python के साथ अपना पहला कदम उठाएँगे
+description: In this resource you will take your first steps with the programming language Python
 original_url: https://raspberrypi.org/learning/turtley-amazing
 theme: violet
 duration: 2
@@ -9,37 +9,37 @@ listed: true
 ingredient: false
 copyedit: true
 curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
-interests: art and design
+interests: art
 technologies: python
-site_areas: प्रोजेक्ट
+site_areas: projects
 hardware: ''
-software: python (पायथन)
+software: python
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: भूमिका
+    title: Introduction
   - 
-    title: आपको किसकी ज़रूरत होगी
+    title: What you will need
   - 
-    title: यह कला है, गणित है, या कंप्यूटर विज्ञान है?
+    title: Is it art, maths, or computer science?
   - 
-    title: एक रेखा खींचना
+    title: Drawing a line
   - 
-    title: घुमाना
+    title: Turning
   - 
-    title: रंग बदलना
+    title: Changing colours
   - 
-    title: दोहराना
+    title: Repetition
   - 
-    title: बेहतर घुमावदार आकार
+    title: Better spirals
   - 
-    title: लूपी रंग
+    title: Loopy colours
   - 
-    title: बचाव के लिए मॉड्यूलो
+    title: Modulo to the rescue
   - 
-    title: भारी सूचियाँ
+    title: Enormous lists
   - 
-    title: इस सब को एक जगह लाना
+    title: Putting it all together
   - 
-    title: 'चुनौती: अपने ड्रम की पोशाक बदलें'
+    title: What next?
