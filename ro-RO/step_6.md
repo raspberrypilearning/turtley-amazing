@@ -29,7 +29,7 @@ G = 255
 B = 0
 ```
 
-\--- / colaps \---
+\--- /collapse \---
 
 [[[generic-theory-simple-colours]]]
 
