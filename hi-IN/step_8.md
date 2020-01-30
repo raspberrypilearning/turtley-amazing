@@ -1,13 +1,13 @@
-## बेहतर घुमावदार
+## Better spirals
 
-- नीचे दिए गए कोड को पढ़कर देखें और यह अनुमान लगाने की कोशिश करें कि इससे क्या होता है। फिर यह देखने के लिए इसे चलाएँ कि क्या आप सही थे। <iframe src="https://trinket.io/embed/python/8f98ccf1fa" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+- Have a go at reading over the code below and guessing what it does. Then run it to see if you were correct. <iframe src="https://trinket.io/embed/python/8f98ccf1fa" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
-- पहली बात शायद आप यह देखेंगे कि इसे चलने में तो सदियाँ लग जाएँगी। हालांकि, हम चीजों की गति को थोड़ा-सा बढ़ा सकते हैं। `for` (के लिए) लूप से पहले निम्नलिखित पंक्ति जोड़ें:
+- The first thing you'll probably notice is that this is going to take ages to run. We can speed things up a bit, though. Add in the following line, before the `for` loop:
     
     ```python
     turtle.speed(0)
     ```
 
-- कोड फिर से चलाएँ: यह थोड़ा तेज़ होना चाहिए।
+- Run the code again: it should be a little faster.
 
-- `R`, `G`, और `B` वेरिएबल को बदलकर हमारे कोड ने एक बहुरंगी घुमावदार आकृति बनाई है। हालांकि, रंग थोड़े एक-आयामी हैं। क्या आप इससे बेहतर काम कर सकते हैं?
+- Our code has made a multicoloured spiral by changing the `R`, `G`, and `B` variables. The colours are a little one-dimensional, though. Can you do a better job?
