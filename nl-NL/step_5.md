@@ -1,4 +1,4 @@
-## Draaien
+## Turning
 
 You've used code to draw a line. Good work! Now let's try making the turtle turn around. To do this you need to instruct the turtle not only to move forward, but also to turn right or left. <iframe src="https://trinket.io/embed/python/88c91b8dfb" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
@@ -8,7 +8,7 @@ You've used code to draw a line. Good work! Now let's try making the turtle turn
 
 - Complete the square shape you've started by adding the next lines of code and press **Run**. Keep trying until you get it right.
 
-### Uitdaging
+### Challenge
 
 Try to complete each of the challenges below.
 
