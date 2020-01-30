@@ -46,7 +46,7 @@ for i in range(4): turtle.forward(100) turtle.right(90) ```
     
     A spiral can be made by turning a small degree and then moving forward a small amount. The section of code for making a square is inside another `for` loop that repeats it 30 times, each time turning the cursor 25 degress to make a pleasing spiral shape.
 
-### Utfordring
+### Challenge
 
 Try to complete each of the challenges below.
 
