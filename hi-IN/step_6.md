@@ -1,27 +1,27 @@
-## रंग बदलना
+## Changing colours
 
-कछुए के आकार के कर्सर द्वारा उपयोग किए जाने वाले पेन के लिए डिफ़ॉल्ट रंग काला है, और पृष्ठभूमि का डिफ़ॉल्ट रंग सफेद है। आप अपने आकारों को और भी बेहतर बनाने के लिए रंग बदल सकते हैं।
+The default colour for the pen used by the turtle cursor is black, and the default background colour is white. You can change the colours to make your shapes look even better.
 
-- नीचे दिए गए कोड को देखें। इसमें `R`, `G`, और `B` नामक तीन वेरिएबल सम्मिलित हैं। <iframe src="https://trinket.io/embed/python/b964b7d3ce" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+- Look at the code below. It contains three variables called `R`, `G`, and `B`. <iframe src="https://trinket.io/embed/python/b964b7d3ce" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
-वेरिएबल किसी मूल्य को संगृहीत करने और उसे कोई नाम देने का एक तरीका है। उदाहरण के लिए, `R` नाम का एक वेरिएबल है जिसका मूल्य `255` है।
+Variables are a way of storing a value and giving it a name. For instance, there is a variable name `R` with a value of `255`.
 
-ऊपर ट्रिंकेट में टिप्पणी की निम्नलिखित पंक्ति सम्मिलित नहीं की गई है, लेकिन यदि आप किसी अन्य संपादक का उपयोग कर रहे हैं तो इसकी आवश्यकता होगी। इसलिए यदि आप Trinket में काम नहीं कर रहे हैं, तो पंक्ति को टिप्पणी रहित करने के लिए `#` चिह्न को निकाल दें।
+The following line is commented out in the trinket above, but will be needed if you are using another editor. So if you are not working in Trinket, then remove the `#` symbol, to uncomment the line.
 
     python
       screen.colormode(255)
 
-- कोड चलाएँ और देखें कि क्या होता है।
+- Run the code and see what happens.
 
-- तीनों वेरिएबल के मानों को बदलने का प्रयास करें, और देखें कि क्या होता है। (नोट: अधिकतम मान 255 है, और इसके बाद कोई प्रभाव नहीं पड़ेगा।) आपको क्या लगता है R, G, और B किसका प्रतिनिधित्व करते हैं?
+- Try changing the values of the three variables, and see what happens. (Note: the maximum value is 255, and after this there will be no effect.) What do you think R, G, and B represent?
 
 ## \--- collapse \---
 
-## title: उत्तर
+## title: Answer
 
-`R`, `G` और `B` दर्शाते हैं कि रंग में कितना लाल, हरा और नीला उपयोग किया जाएगा। प्रत्येक का `0` से लेकर `255` तक का कोई मान हो सकता है।
+`R`, `G` and `B` represent how much red, green, and blue will be used in the colour. Each can have any value from `0` up to `255`.
 
-तो पीला बनाने के लिए, आप निम्नलिखित को आजमा सकते हैं:
+So to make yellow, you could try the following:
 
 ```python
 R = 255
@@ -33,17 +33,17 @@ B = 0
 
 [[[generic-theory-simple-colours]]]
 
-आप अपने वेरिएबल के मान को या तो उनका नया मान सेट करके, या उन्हें बढ़ाकर और घटाकर बदल सकते हैं।
+You can change the value of your variables either by setting them to a new value, or by increasing and decreasing them.
 
-- आप कछुए के रंग को भी बदल सकते हैं। निम्न कोड चलाएँ और देखें कि क्या होता है। <iframe src="https://trinket.io/embed/python/ab6732d60e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+- You can change the colour of the turtle as well. Run the code below to see what happens: <iframe src="https://trinket.io/embed/python/ab6732d60e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
-### चुनौती
+### Challenge
 
-नीचे दी गई प्रत्येक चुनौती को पूरा करने का प्रयास करें।
+Try to complete each of the challenges below.
 
-- अपनी पसंद के रंग के साथ ऊपर के त्रिभुज को पूरा करें।
-- एक चौकोर बनाएँ जिसकी चारों साइडों पर लाल रंग के चार अलग-अलग शेड हों।
-- चार अलग-अलग रंगों से बना क्रॉस बनाएँ।
+- Complete the triangle above with a colour of your choice.
+- Draw a square with sides which are four different shades of red.
+- Draw a cross made of four different colours.
 
 \--- hints \--- \--- hint \---
 
