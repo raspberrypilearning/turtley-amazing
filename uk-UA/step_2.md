@@ -1,3 +1,3 @@
-## Що вам знадобиться
+## What you will need
 
 - An internet connected computer
