@@ -11,16 +11,16 @@ copyedit: true
 curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
 interests: art
 technologies: python
-site_areas: progetti
+site_areas: projects
 hardware: ''
 software: python
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduzione
+    title: Introduction
   - 
-    title: Di cosa avrai bisogno
+    title: What you will need
   - 
     title: Is it art, maths, or computer science?
   - 
@@ -42,4 +42,4 @@ steps:
   - 
     title: Putting it all together
   - 
-    title: 'Sfida: Più matite'
+    title: What next?
