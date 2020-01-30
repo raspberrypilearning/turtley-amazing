@@ -18,9 +18,9 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Jogo de calculo mental
+    title: Introduction
   - 
-    title: O que vais precisar
+    title: What you will need
   - 
     title: Is it art, maths, or computer science?
   - 
