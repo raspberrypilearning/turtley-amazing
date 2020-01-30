@@ -1,3 +1,3 @@
-## Ce vei avea nevoie
+## What you will need
 
 - An internet connected computer
