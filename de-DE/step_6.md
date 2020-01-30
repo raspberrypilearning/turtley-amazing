@@ -17,7 +17,7 @@ The following line is commented out in the trinket above, but will be needed if 
 
 ## \--- collapse \---
 
-## title: Antwort
+## title: Answer
 
 `R`, `G` and `B` represent how much red, green, and blue will be used in the colour. Each can have any value from `0` up to `255`.
 
@@ -29,7 +29,7 @@ G = 255
 B = 0
 ```
 
-\--- /collapse\---
+\--- /collapse \---
 
 [[[generic-theory-simple-colours]]]
 
@@ -37,7 +37,7 @@ You can change the value of your variables either by setting them to a new value
 
 - You can change the colour of the turtle as well. Run the code below to see what happens: <iframe src="https://trinket.io/embed/python/ab6732d60e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
-### Herausforderung
+### Challenge
 
 Try to complete each of the challenges below.
 
