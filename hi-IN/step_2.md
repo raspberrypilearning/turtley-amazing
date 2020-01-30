@@ -1,3 +1,3 @@
-## आपकी किन चीजों आवश्यकता होगी
+## What you will need
 
-- इंटरनेट से जुड़ा कंप्यूटर
+- An internet connected computer
