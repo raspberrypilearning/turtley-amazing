@@ -15,7 +15,7 @@ The following line is commented out in the trinket above, but will be needed if 
 
 - Try changing the values of the three variables, and see what happens. (Note: the maximum value is 255, and after this there will be no effect.) What do you think R, G, and B represent?
 
-## \--- küçült \---
+## \--- collapse \---
 
 ## title: Answer
 
@@ -37,7 +37,7 @@ You can change the value of your variables either by setting them to a new value
 
 - You can change the colour of the turtle as well. Run the code below to see what happens: <iframe src="https://trinket.io/embed/python/ab6732d60e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
-### Meydan Okuma
+### Challenge
 
 Try to complete each of the challenges below.
 
