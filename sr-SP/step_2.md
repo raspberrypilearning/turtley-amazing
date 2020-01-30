@@ -1,3 +1,3 @@
-## Шта ће ти требати
+## What you will need
 
 - An internet connected computer
