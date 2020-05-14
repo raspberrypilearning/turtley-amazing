@@ -2,7 +2,9 @@
 
 De standaardkleur voor de pen die door de schildpadcursor wordt gebruikt, is zwart en de standaardachtergrondkleur is wit. Je kunt de kleuren wijzigen om je vormen er nog beter uit te laten zien.
 
-- Bekijk de onderstaande code. Het bevat drie variabelen genaamd `R`, `G`en `B`. <iframe src="https://trinket.io/embed/python/b964b7d3ce" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+- Bekijk de onderstaande code. Het bevat drie variabelen genaamd `R`, `G`en `B`. 
+
+<iframe src="https://trinket.io/embed/python/b964b7d3ce" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
 Variabelen zijn een manier om een waarde op te slaan en een naam te geven. Er is bijvoorbeeld een variabelenaam `R` met een waarde van `255`.
 

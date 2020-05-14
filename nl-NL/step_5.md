@@ -1,6 +1,8 @@
 ## Draaien
 
-Je hebt code gebruikt om een lijn te tekenen. Goed gedaan! Laten we nu proberen de schildpad om te draaien. Om dit te doen moet je de schildpad instrueren niet alleen vooruit te gaan, maar ook naar rechts of links te draaien. <iframe src="https://trinket.io/embed/python/88c91b8dfb" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+Je hebt code gebruikt om een lijn te tekenen. Goed gedaan! Laten we nu proberen de schildpad om te draaien. Om dit te doen moet je de schildpad instrueren niet alleen vooruit te gaan, maar ook naar rechts of links te draaien. 
+
+<iframe src="https://trinket.io/embed/python/88c91b8dfb" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
 - Wat denk je dat er zal gebeuren in de bovenstaande code? Klik op **Run** om te zien of je gelijk hebt.
     
