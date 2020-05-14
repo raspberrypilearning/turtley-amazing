@@ -18,7 +18,9 @@ In Python zijn er twee soorten lussen die je waarschijnlijk zult gebruiken: een 
     
     Dit type lus zal niet erg handig zijn voor het tekenen van vormen met Turtle waar je preciezer wilt zijn.
 
-- In dit voorbeeld is een `for` lus gebruikt. Druk op **Run** om te zien wat er gebeurt. <iframe src="https://trinket.io/embed/python/b89b6f5457" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+- In dit voorbeeld is een `for` lus gebruikt. Druk op **Run** om te zien wat er gebeurt. 
+
+<iframe src="https://trinket.io/embed/python/b89b6f5457" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
 Een `for` lus herhaalt instructies een bepaald aantal keren, in dit geval 8 keer. Een `for` lus heeft een bijbehorende variabele (hier `i` genoemd). In dit voorbeeld begint `i` vanaf `0` en neemt deze telkens met `1` toe. Laten we dit toepassen op de code om een vierkant te tekenen:
 
@@ -26,7 +28,8 @@ Een `for` lus herhaalt instructies een bepaald aantal keren, in dit geval 8 keer
 
 turtle = Turtle()
 
-for i in range(4): turtle.forward(100) turtle.right(90) ```
+for i in range(4): turtle.forward(100) turtle.right(90) 
+```
 
 - Kopieer en plak deze code in de Trinket-editor hierboven en voer deze uit. De schildpad is gevraagd om twee instructies vier keer te herhalen om een vierkant te maken.
 

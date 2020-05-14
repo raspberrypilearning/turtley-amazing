@@ -35,7 +35,9 @@ B = 0
 
 Je kunt de waarde van je variabelen wijzigen door ze op een nieuwe waarde in te stellen of door ze te verhogen en te verlagen.
 
-- Je kunt ook de kleur van de schildpad veranderen. Voer de onderstaande code uit om te zien wat er gebeurt: <iframe src="https://trinket.io/embed/python/ab6732d60e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+- Je kunt ook de kleur van de schildpad veranderen. Voer de onderstaande code uit om te zien wat er gebeurt: 
+
+<iframe src="https://trinket.io/embed/python/ab6732d60e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
 ### Uitdaging
 
