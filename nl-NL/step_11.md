@@ -1,7 +1,7 @@
-## Enormous lists
+## Enorme lijsten
 
-You can now have a go at creating a list of colours that's a little longer than before. To do this you can use a `while` loop. Unlike a `for` loop, a `while` loop keeps running until a specific condition has been met.
+Je kunt nu een lijst met kleuren maken die iets langer is dan voorheen. Om dit te doen, kun je een `while`-lus gebruiken. In tegenstelling tot een `for` lus, blijft een `while`-lus doorlopen totdat aan een specifieke voorwaarde is voldaan.
 
-- Look at the code below. The `while` loop is used to gradually increase the value of `G` until it reaches 255. Each time, the colours are added to the list. <iframe src="https://trinket.io/embed/python/cfb2a665a8" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+- Bekijk de onderstaande code. De `while`-lus wordt gebruikt om de waarde van `G` geleidelijk te verhogen tot 255. Telkens worden de kleuren aan de lijst toegevoegd. <iframe src="https://trinket.io/embed/python/cfb2a665a8" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
-- Can you add in two more `while` loops to add more colours? The next loop should gradually decrease `R` until it reaches 0. The final one should then increase `B` until it reaches 255. Have a go, but if you get stuck, all will be revealed in the last section.
+- Kun je nog twee `while`-lussen maken om meer kleuren toe te voegen? De volgende lus moet geleidelijk `R` verlagen totdat deze 0 bereikt. De laatste moet dan `B` verhogen tot hij 255 bereikt. Probeer het maar, als je vastloopt, wordt alles in het laatste gedeelte onthuld.
