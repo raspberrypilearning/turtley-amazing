@@ -1,3 +1,3 @@
-## Putting it all together
+## Alles bij elkaar brengen
 
-You can now use the `while` loops along with the spiral code to make a really pretty spiral. Have a look at the code below, and make sure you understand what it is doing. Try playing with the value of the variables in the loops, to see what effect this has on the output. <iframe src="https://trinket.io/embed/python/91a1daf84e" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+Je kunt nu de `while`-lussen samen met de spiraalcode gebruiken om een echt mooie spiraal maken. Bekijk de onderstaande code en zorg dat je begrijpt wat hij doet. Probeer te spelen met de waarde van de variabelen in de lussen om te zien welk effect dit heeft op de uitvoer. <iframe src="https://trinket.io/embed/python/91a1daf84e" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
