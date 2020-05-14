@@ -1,18 +1,18 @@
-## What you will make
+## Wat ga je maken?
 
-In this resource you will take your first steps with the programming language Python to draw shapes, patterns, and spirals. You will use a module named Turtle. Along the way you will learn how to think in sequences, and use loops to repeat a sequence. This is a great stepping stone from a visual programming language like Scratch to the text-based environment of Python.
+In dit project zet je je eerste stappen met de programmeertaal Python om vormen, patronen en spiralen te tekenen. Je gebruikt een module met de naam Turtle. Onderweg leer je hoe je in reeksen denkt en om lussen te gebruiken om een reeks te herhalen. Dit is een geweldige opstap van een visuele programmeertaal zoals Scratch naar de op tekst gebaseerde omgeving van Python.
 
-## What you will learn
+## Wat ga je leren
 
-By making patterns with Python code you will learn:
+Door patronen te maken met Python-code leer je:
 
-- To take your first steps with the Python programming language
-- How to draw lines with Python Turtle
-- How to make turns
-- How to change the pen colour
-- To use loops to repeat some instructions and create shapes
-- To use more loops to create spiral patterns
+- Om je eerste stappen te zetten met de programmeertaal Python
+- Hoe lijnen te tekenen met Python Turtle
+- Hoe bochten te maken
+- Hoe de penkleur te veranderen
+- Lussen gebruiken om enkele instructies te herhalen en vormen te maken
+- Meer lussen gebruiken om spiraalpatronen te maken
 
-This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
+Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
 
-- [Combine programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder)
+- [Combineer programmeerconstructies om een ​​probleem op te lossen](https://www.raspberrypi.org/curriculum/programming/builder)
