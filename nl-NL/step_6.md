@@ -1,27 +1,27 @@
-## Changing colours
+## Kleuren veranderen
 
-The default colour for the pen used by the turtle cursor is black, and the default background colour is white. You can change the colours to make your shapes look even better.
+De standaardkleur voor de pen die door de schildpadcursor wordt gebruikt, is zwart en de standaardachtergrondkleur is wit. Je kunt de kleuren wijzigen om je vormen er nog beter uit te laten zien.
 
-- Look at the code below. It contains three variables called `R`, `G`, and `B`. <iframe src="https://trinket.io/embed/python/b964b7d3ce" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+- Bekijk de onderstaande code. Het bevat drie variabelen genaamd `R`, `G`en `B`. <iframe src="https://trinket.io/embed/python/b964b7d3ce" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
-Variables are a way of storing a value and giving it a name. For instance, there is a variable name `R` with a value of `255`.
+Variabelen zijn een manier om een waarde op te slaan en een naam te geven. Er is bijvoorbeeld een variabelenaam `R` met een waarde van `255`.
 
-The following line is commented out in the trinket above, but will be needed if you are using another editor. So if you are not working in Trinket, then remove the `#` symbol, to uncomment the line.
+De volgende regel is uitgecommentarieerd in de trinket hierboven, maar zal nodig zijn als je een andere editor gebruikt. Dus als je niet in Trinket werkt, verwijder je het `#` symbool om het uitcommentarieren van de regel ongedaan te maken.
 
     python
       screen.colormode(255)
 
-- Run the code and see what happens.
+- Voer de code uit en kijk wat er gebeurt.
 
-- Try changing the values of the three variables, and see what happens. (Note: the maximum value is 255, and after this there will be no effect.) What do you think R, G, and B represent?
+- Probeer de waarden van de drie variabelen te wijzigen en kijk wat er gebeurt. (Opmerking: de maximale waarde is 255 en daarna heeft het geen effect meer.) Wat denk je dat R, G en B vertegenwoordigen?
 
 ## \--- collapse \---
 
-## title: Answer
+## title: Antwoord
 
-`R`, `G` and `B` represent how much red, green, and blue will be used in the colour. Each can have any value from `0` up to `255`.
+`R`, `G` en `B` geven aan hoeveel rood, groen en blauw in de kleur worden gebruikt. Elk kan een waarde hebben van `0` tot `255`.
 
-So to make yellow, you could try the following:
+Dus om geel te maken, zou je het volgende kunnen proberen:
 
 ```python
 R = 255
@@ -33,25 +33,25 @@ B = 0
 
 [[[generic-theory-simple-colours]]]
 
-You can change the value of your variables either by setting them to a new value, or by increasing and decreasing them.
+Je kunt de waarde van je variabelen wijzigen door ze op een nieuwe waarde in te stellen of door ze te verhogen en te verlagen.
 
-- You can change the colour of the turtle as well. Run the code below to see what happens: <iframe src="https://trinket.io/embed/python/ab6732d60e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+- Je kunt ook de kleur van de schildpad veranderen. Voer de onderstaande code uit om te zien wat er gebeurt: <iframe src="https://trinket.io/embed/python/ab6732d60e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
-### Challenge
+### Uitdaging
 
-Try to complete each of the challenges below.
+Probeer elk van de onderstaande uitdagingen te voltooien.
 
-- Complete the triangle above with a colour of your choice.
-- Draw a square with sides which are four different shades of red.
-- Draw a cross made of four different colours.
+- Voltooi de driehoek hierboven met een kleur naar keuze.
+- Teken een vierkant met zijden die vier verschillende tinten rood zijn.
+- Teken een kruis gemaakt van vier verschillende kleuren.
 
 \--- hints \--- \--- hint \---
 
-To change a colour, you can just keep adding or subtracting values from the original variables.
+Als je een kleur wilt wijzigen, kun je gewoon waarden bij de oorspronkelijke variabelen blijven optellen of aftrekken.
 
 \--- /hint \--- \--- hint \---
 
-So you could alter colours by doing the following:
+Je kunt dus de kleuren wijzigen door het volgende te doen:
 
 ```python
 R = 255
@@ -62,9 +62,9 @@ turtle.color((R, G, B))
 turtle.forward(100)
 turtle.right(120)
 
-R -= 20
-G += 20
-B += 5
+R - = 20
+G + = 20
+B + = 5
 
 turtle.color((R, G, B))
 turtle.forward(100)
