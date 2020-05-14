@@ -1,0 +1,32 @@
+---
+title: Turtley Geweldig
+hero_image: images/banner.png
+description: In dit project zet je je eerste stappen met de programmeertaal Python
+original_url: https://raspberrypi.org/learning/turtley-amazing
+theme: violet
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+interests: art
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+  - title: Inleiding
+  - title: Wat heb je nodig
+  - title: Is het kunst, wiskunde of informatica?
+  - title: Een lijn tekenen
+  - title: Draaien
+  - title: Kleuren veranderen
+  - title: Herhaling
+  - title: Betere spiralen
+  - title: Loopy kleuren
+  - title: Modulo komt te hulp
+  - title: Enorme lijsten
+  - title: Alles bij elkaar brengen
+  - title: Wat kun je verder nog doen?
