@@ -1,3 +1,3 @@
-## What you will need
+## Wat heb je nodig
 
-- An internet connected computer
+- Een computer met internetverbinding
