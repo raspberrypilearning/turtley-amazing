@@ -1,7 +1,7 @@
 ---
-title: Turtley Amazing
+title: Turtley Geweldig
 hero_image: images/banner.png
-description: In this resource you will take your first steps with the programming language Python
+description: In dit project zet je je eerste stappen met de programmeertaal Python
 original_url: https://raspberrypi.org/learning/turtley-amazing
 theme: violet
 duration: 2
@@ -18,28 +18,28 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Inleiding
   - 
-    title: What you will need
+    title: Wat heb je nodig
   - 
-    title: Is it art, maths, or computer science?
+    title: Is het kunst, wiskunde of informatica?
   - 
-    title: Drawing a line
+    title: Een lijn tekenen
   - 
-    title: Turning
+    title: Draaien
   - 
-    title: Changing colours
+    title: Kleuren veranderen
   - 
-    title: Repetition
+    title: Herhaling
   - 
-    title: Better spirals
+    title: Betere spiralen
   - 
-    title: Loopy colours
+    title: Loopy kleuren
   - 
-    title: Modulo to the rescue
+    title: Modulo komt te hulp
   - 
-    title: Enormous lists
+    title: Enorme lijsten
   - 
-    title: Putting it all together
+    title: Alles bij elkaar brengen
   - 
-    title: What next?
+    title: Wat kun je verder nog doen?
