@@ -15,10 +15,10 @@ De volgende regel is uitgecommentarieerd in de trinket hierboven, maar zal nodig
 
 - Probeer de waarden van de drie variabelen te wijzigen en kijk wat er gebeurt. (Opmerking: de maximale waarde is 255 en daarna heeft het geen effect meer.) Wat denk je dat R, G en B vertegenwoordigen?
 
-## --- collapse ---
-
-## title: Antwoord
-
+--- collapse ---
+---
+title: Antwoord
+---
 `R`, `G` en `B` geven aan hoeveel rood, groen en blauw in de kleur worden gebruikt. Elk kan een waarde hebben van `0` tot `255`.
 
 Dus om geel te maken, zou je het volgende kunnen proberen:
