@@ -1,10 +1,10 @@
-## Repetition
+## Herhaling
 
-Repeating lines of code is one of the fastest ways to get something done. Quite often in computer science, it makes more sense to repeat lines of code rather than write out another set of instructions. For example, the square you created earlier uses the same two instructions four times. Rather than writing them out four times, you could write them out once but add an instruction to repeat them.
+Het herhalen van coderegels is een van de snelste manieren om iets voor elkaar te krijgen. Heel vaak in de informatica is het logischer om coderegels te herhalen in plaats van een andere reeks instructies te schrijven. Het vierkant dat je eerder hebt gemaakt, gebruikt bijvoorbeeld vier keer dezelfde twee instructies. In plaats van ze vier keer uit te schrijven, zou je ze een keer kunnen uitschrijven, maar een instructie toevoegen om ze te herhalen.
 
-In Python there are two types of loops that you are likely to use: a `while` loop and a `for` loop. If you want a section of code to repeat forever, or until a condition is set, then a `while` loop might be best. If you want to loop for a set number of times, then a `for` loop is preferable.
+In Python zijn er twee soorten lussen die je waarschijnlijk zult gebruiken: een lus van `while` en een lus van `for`. Als je wilt dat een gedeelte van de code voor altijd wordt herhaald, of totdat een voorwaarde is ingesteld, is een lus van `while` misschien het beste. Als je een bepaald aantal keren wilt lussen, heeft een `for` lus de voorkeur.
 
-- Here, we have used a `while True` loop. This means that the code inside the loop (i.e. the code which is indented) will repeat forever. You can try it in Trinket to see what it does, but remember it will loop **forever**!
+- Hier hebben we een `while True` lus gebruikt. Dit betekent dat de code in de lus (d.w.z. de ingesprongen code) voor altijd zal worden herhaald. Je kunt het proberen in Trinket om te zien wat het doet, maar vergeet niet dat het voor **altijd** doorgaat!
     
     ```python
     from turtle import Turtle, Screen
@@ -16,11 +16,11 @@ In Python there are two types of loops that you are likely to use: a `while` loo
       turtle.right(1)
     ```
     
-    This type of loop is not going to be very useful for drawing shapes with Turtle where you want to be more precise.
+    Dit type lus zal niet erg handig zijn voor het tekenen van vormen met Turtle waar je preciezer wilt zijn.
 
-- In this example, a `for` loop has been used. Press **Run** to see what happens. <iframe src="https://trinket.io/embed/python/b89b6f5457" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+- In dit voorbeeld is een `for` lus gebruikt. Druk op **Run** om te zien wat er gebeurt. <iframe src="https://trinket.io/embed/python/b89b6f5457" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
-A `for` loop repeats instructions a set number of times, in this case 8 times. A `for` loop has an associated variable (called `i` here). In this example, `i` starts from `0` and increases by `1` each time. Let's apply this to the code to draw a square:
+Een `for` lus herhaalt instructies een bepaald aantal keren, in dit geval 8 keer. Een `for` lus heeft een bijbehorende variabele (hier `i` genoemd). In dit voorbeeld begint `i` vanaf `0` en neemt deze telkens met `1` toe. Laten we dit toepassen op de code om een vierkant te tekenen:
 
 ```python from turtle import Turtle, Screen
 
@@ -28,9 +28,9 @@ turtle = Turtle()
 
 for i in range(4): turtle.forward(100) turtle.right(90) ```
 
-- Copy and paste this code into the Trinket editor above and run it. The turtle has been asked to repeat two instructions four times to make a square.
+- Kopieer en plak deze code in de Trinket-editor hierboven en voer deze uit. De schildpad is gevraagd om twee instructies vier keer te herhalen om een vierkant te maken.
 
-- Once you have created one shape using a loop, you can repeat the shape again and again by putting it inside another loop. This is a great way to draw spirals. Adapt your code by making it look like this:
+- Nadat je met behulp van een lus een vorm hebt gemaakt, kun je de vorm steeds opnieuw herhalen door deze in een andere lus te plaatsen. Dit is een geweldige manier om spiralen te tekenen. Pas je code aan door deze er als volgt uit te laten zien:
     
     ```python
     from turtle import Turtle, Screen
@@ -39,28 +39,28 @@ for i in range(4): turtle.forward(100) turtle.right(90) ```
     
     for i in range(30):
       for i in range(4):
-          turtle.forward(100)
-          turtle.right(90)
+        turtle.forward(100)
+        turtle.right(90)
       turtle.right(25)
     ```
     
-    A spiral can be made by turning a small degree and then moving forward a small amount. The section of code for making a square is inside another `for` loop that repeats it 30 times, each time turning the cursor 25 degress to make a pleasing spiral shape.
+    Een spiraal kan worden gemaakt door een kleine graad te draaien en vervolgens een kleine hoeveelheid vooruit te gaan. Het gedeelte met code voor het maken van een vierkant bevindt zich in een andere `for` lus die het 30 keer herhaalt, waarbij de cursor telkens 25 graden wordt gedraaid om een aangename spiraalvorm te maken.
 
-### Challenge
+### Uitdaging
 
-Try to complete each of the challenges below.
+Probeer elk van de onderstaande uitdagingen te voltooien.
 
-- Can you alter the `for` loop so that it draws a more interesting spiral using one of the shapes you made earlier, like a triangle or circle?
+- Kun je de `for` lus wijzigen zodat deze een interessantere spiraal trekt met één van de vormen die je eerder hebt gemaakt, zoals een driehoek of cirkel?
 
-- Adding a few extra lines where you alter the variables `R`, `G`, and `B` would allow you to make a multicoloured spiral. Have a go at creating a rainbow spiral.
+- Door een paar extra lijnen toe te voegen waar je de variabelen `R`, `G`en `B` wijzigt, kun je een veelkleurige spiraal maken. Probeer een regenboogspiraal te creëren.
 
 \--- hints \--- \--- hint \---
 
-Just like in the previous exercise, you can add to or subtract from the `R`, `G`, and `B` variables.
+Net als in de vorige oefening kun je optellen bij of aftrekken van de variabelen `R`, `G`en `B`.
 
 \--- /hint \--- \--- hint \---
 
-Just alter the variables within the `for` loop:
+Wijzig gewoon de variabelen binnen de `for` lus:
 
 ```python
 from turtle import Turtle, Screen
@@ -73,17 +73,17 @@ G = 0
 B = 124
 
 for i in range(30):
-    turtle.color((R, G, B))
-    for i in range(4):
-        turtle.forward(100)
-        turtle.right(90)
-        ##ADD SOMETHING HERE
-    turtle.right(25)
+turtle.color((R, G, B))
+for i in range(4):
+turtle.forward(100)
+turtle.right(90)
+##VOEG HIER IETS TOE
+turtle.right(25)
 ```
 
 \--- /hint \--- \--- hint \---
 
-Try this to get started:
+Probeer dit om te beginnen:
 
 ```python
 from turtle import Turtle, Screen
@@ -96,13 +96,13 @@ G = 0
 B = 124
 
 for i in range(30):
-    turtle.color((R, G, B))
-    for i in range(4):
-        turtle.forward(100)
-        turtle.right(90)
-        R -= 1
-        G += 1
-    turtle.right(25)
+turtle.color((R, G, B))
+for i in range(4):
+turtle.forward(100)
+turtle.right(90)
+R -= 1
+G += 1
+turtle.right(25)
 ```
 
 \--- /hint \--- \--- /hints \---
