@@ -1,7 +1,7 @@
-## Is it art, maths, or computer science?
+## Is het kunst, wiskunde of informatica?
 
-Have a look at the image below. How would you describe it? Is is art, maths, or computer science?
+Bekijk de onderstaande afbeelding. Hoe zou je het beschrijven? Is kunst, wiskunde of informatica?
 
 ![](images/screen1.png)
 
-It's a computer-generated image, but making it requires an understanding of art, maths, and computer science. Let's see how you too can make images just like this.
+Het is een door de computer gegenereerde afbeelding, maar om het te maken is inzicht in kunst, wiskunde en informatica vereist. Laten we eens kijken hoe ook jij op deze manier afbeeldingen kunt maken.
