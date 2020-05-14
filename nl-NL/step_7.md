@@ -24,12 +24,13 @@ In Python zijn er twee soorten lussen die je waarschijnlijk zult gebruiken: een 
 
 Een `for` lus herhaalt instructies een bepaald aantal keren, in dit geval 8 keer. Een `for` lus heeft een bijbehorende variabele (hier `i` genoemd). In dit voorbeeld begint `i` vanaf `0` en neemt deze telkens met `1` toe. Laten we dit toepassen op de code om een vierkant te tekenen:
 
-```python from turtle import Turtle, Screen
+    ```python 
+    from turtle import Turtle, Screen
+    
+    turtle = Turtle()
 
-turtle = Turtle()
-
-for i in range(4): turtle.forward(100) turtle.right(90) 
-```
+    for i in range(4): turtle.forward(100) turtle.right(90) 
+    ```
 
 - Kopieer en plak deze code in de Trinket-editor hierboven en voer deze uit. De schildpad is gevraagd om twee instructies vier keer te herhalen om een vierkant te maken.
 
