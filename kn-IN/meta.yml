@@ -1,0 +1,32 @@
+---
+title: ಅದ್ಭುತ ಆಮೆ
+hero_image: images/banner.png
+description: ಈ ಸಂಪನ್ಮೂಲದಲ್ಲಿ ನೀವು Python ಪ್ರೋಗ್ರಾಮಿಂಗ್ ಭಾಷೆ ನೊಂದಿಗೆ ನಿಮ್ಮ ಮೊದಲ ಹೆಜ್ಜೆಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುತ್ತೀರಿ
+original_url: https://raspberrypi.org/learning/turtley-amazing
+theme: violet
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+interests: art
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+  - title: ಪರಿಚಯ
+  - title: ನಿಮಗೆ ಬೇಕಾದುದು
+  - title: ಇದು ಕಲೆ, ಗಣಿತ ಅಥವಾ ಕಂಪ್ಯೂಟರ್ ವಿಜ್ಞಾನವೇ?
+  - title: ರೇಖೆಯನ್ನು ಚಿತ್ರಿಸುವುದು
+  - title: ತಿರುಗುವುದು
+  - title: ಬಣ್ಣ ಬದಲಾಯಿಸುವುದು
+  - title: ಮರುಕಳಿಸು
+  - title: ಉತ್ತಮ ಸುರುಳಿಗಳು
+  - title: ಲೂಪಿ ಬಣ್ಣಗಳು
+  - title: ಕಾಪಾಡುವ ಮಾಡ್ಯುಲೋ
+  - title: ಬೃಹತ್ ಪಟ್ಟಿಗಳು
+  - title: ಎಲ್ಲವನ್ನೂ ಒಟ್ಟಿಗೆ ಇಡುವುದು
+  - title: ಮುಂದೆ ಏನು?
