@@ -1,18 +1,18 @@
-## Turning
+## الدوران
 
-You've used code to draw a line. Good work! Now let's try making the turtle turn around. To do this you need to instruct the turtle not only to move forward, but also to turn right or left. <iframe src="https://trinket.io/embed/python/88c91b8dfb" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+لقد استخدمت الكود لرسم خط. عمل جيد الآن، دعونا نحاول جعل السلحفاة تستدير. للقيام بذلك تحتاج إلى إرشاد السلحفاة ليس فقط للمضي قدمًا، ولكن أيضًا للانعطاف يمينًا أو يسارًا. <iframe src="https://trinket.io/embed/python/88c91b8dfb" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
-- What do you think will happen in the code above? Click on **Run** to see if you were right.
+- ماذا تعتقد سيحدث لها في مغامرتها القادمة؟ انقر على **Run** لمعرفة ما إذا كنت على حق.
     
-    `turtle.right(90)` turns the cursor 90 degrees right. You can also turn left with `turtle.left(90)`. To change the amount that the cursor turns, simply change the value of degrees.
+    `turtle.right(90)` يدير المؤشر 90 درجة إلى اليمين. يمكنك أيضًا الرجوع إلى اليسار مع `turtle.left(90)`. لتغيير مقدار دوران المؤشر، ما عليك سوى تغيير قيمة الدرجات.
 
-- Complete the square shape you've started by adding the next lines of code and press **Run**. Keep trying until you get it right.
+- أكمل شكل المربع الذي بدأته بإضافة الأسطر التالية من التعليمات البرمجية واضغط على **Run**. استمر في المحاولة حتى تحصل عليها بشكل صحيح.
 
-### Challenge
+### التحدي
 
-Try to complete each of the challenges below.
+حاول إكمال كل من التحديات أدناه.
 
-- Draw a rectangle: two of the four sides need to be longer.
-- Draw a triangle: how many degrees do you need to turn?
-- Draw a cross: backwards and forwards work well together.
-- Draw a circle: what happens if you turn lots?
+- ارسم مستطيلاً: يجب أن يكون جانبان من الجوانب الأربعة أطول.
+- ارسم مثلثًا: كم درجة تحتاج للالتفاف؟
+- ارسم تقاطعًا: للخلف وللأمام يعملان جيدًا معًا.
+- ارسم دائرة: ماذا يحدث إذا درت كثيرا؟
