@@ -1,10 +1,10 @@
-## Modulo to the rescue
+## باقي القسمة جاهز للانقاذ
 
-In the previous example, you need a way to keep looping over the list items, so when `i` gets to 9, it will go back around and get the "0th" item from the list again. This is where the modulo operator `%` can help you out.
+في المثال السابق، تحتاج إلى طريقة للاستمرار في تكرار عناصر القائمة ، لذلك عندما يصل `i` إلى 9 ، سيعود مرة أخرى ويحصل على العنصر "0" من القائمة مرة أخرى. هذا هو المكان الذي يستطيع فيه مشغل الوحدة `%` مساعدتك.
 
-- Look at the code below: run it and see if you can figure out what is going on. You shoud get `0` to begin with. <iframe src="https://trinket.io/embed/python/8fd77a1942" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+- انظر إلى التعليمات البرمجية أدناه: قم بتشغيلها وانظر ما إذا كنت تستطيع معرفة ما يحدث. يجب أن تحصل على `0` لتبدأ. <iframe src="https://trinket.io/embed/python/8fd77a1942" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
-- Try changing the numbers in the `print` command. There are some examples to try below:
+- حاول تغيير الأرقام في الأمر ` print `. إليك بعض الأفكار لمساعدتك:
     
     ```python
     print(17 % 6)
@@ -17,6 +17,6 @@ In the previous example, you need a way to keep looping over the list items, so 
     print(11 % 6)
     ```
 
-- Did you figure it out? The `%` operator prints out the remainder of a division. For example, 15 ÷ 6 is 2 with a remainder of 3. Therefore 15 % 6 would be 3. We can use this operator to help with the problem of running off the end of the list. If the `range` goes above the length of the list, you can just do a `%` of the length of the list.
+- هل اكتشفت ذلك؟ يطبع الرمز `٪` باقي القسمة. على سبيل المثال، 15 ÷ 6 يساوي 2 مع باقي 3. لذلك 15٪ 6 ستكون 3. يمكننا استخدام هذا المشغل للمساعدة في حل مشكلة الخروج من نهاية القائمة. إذا كان النطاق `` أعلى من طول القائمة، يمكنك فقط عمل `٪` من طول القائمة.
 
-- Have a look at the example below, and read through the code carefully to make sure you can see how the modulo operator is used. <iframe src="https://trinket.io/embed/python/c56b5cb705" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+- ألقي نظرة على المثال أدناه، وقرأ من خلال التعليمة البرمجية بعناية للتأكد من أنه يمكنك رؤية كيفية استخدام مشغل الوحدة. <iframe src="https://trinket.io/embed/python/c56b5cb705" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
