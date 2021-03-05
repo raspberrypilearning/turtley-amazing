@@ -1,27 +1,27 @@
-## Changing colours
+## تغيير الألوان
 
-The default colour for the pen used by the turtle cursor is black, and the default background colour is white. You can change the colours to make your shapes look even better.
+اللون الافتراضي للقلم المستخدم بواسطة مؤشر السلحفاة هو الأسود، ولون الخلفية الافتراضي هو الأبيض. يمكنك تغيير الألوان لجعل الأشكال الخاصة بك تبدو أفضل.
 
-- Look at the code below. It contains three variables called `R`, `G`, and `B`. <iframe src="https://trinket.io/embed/python/b964b7d3ce" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+- انظر إلى الكود أدناه. يحتوي على ثلاثة متغيرات تسمى `R`و `G`و `B`. <iframe src="https://trinket.io/embed/python/b964b7d3ce" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
-Variables are a way of storing a value and giving it a name. For instance, there is a variable name `R` with a value of `255`.
+المتغيرات هي طريقة لتخزين قيمة وإعطائها اسما. على سبيل المثال، هناك اسم متغير `R` بقيمة `255`.
 
-The following line is commented out in the trinket above, but will be needed if you are using another editor. So if you are not working in Trinket, then remove the `#` symbol, to uncomment the line.
+تم جعل السطر التالي في trinket أعلاه كتعليق، ولكن ستحتاجه إذا كنت تستخدم محررا آخر. لذلك إذا كنت لا تعمل في Trinket، فقم بإزالة الرمز `#` لإلغاء التعليق على السطر.
 
     python
       screen.colormode(255)
 
-- Run the code and see what happens.
+- قم بتشغيل التعليمات البرمجية وانظر ما يحدث.
 
-- Try changing the values of the three variables, and see what happens. (Note: the maximum value is 255, and after this there will be no effect.) What do you think R, G, and B represent?
+- حاول تغيير قيم المتغيرات الثلاثة، وانظر ماذا يحدث. (ملاحظة: الحد الأقصى للقيمة هو 255، وبعد ذلك لن يكون هناك أي تأثير). ماذا تعتقد أن R و G و B تمثل؟
 
 ## \--- collapse \---
 
-## title: Answer
+## title: الإجابة
 
-`R`, `G` and `B` represent how much red, green, and blue will be used in the colour. Each can have any value from `0` up to `255`.
+`R`و `G` و `B` تمثل مقدار استخدام الأحمر والأخضر والأزرق في اللون. يمكن أن يكون لكل منها أي قيمة من `0` حتى `255`.
 
-So to make yellow, you could try the following:
+لتكوين اللون الأصفر، يمكنك تجربة ما يلي:
 
 ```python
 R = 255
@@ -33,25 +33,25 @@ B = 0
 
 [[[generic-theory-simple-colours]]]
 
-You can change the value of your variables either by setting them to a new value, or by increasing and decreasing them.
+يمكنك تغيير قيمة المتغيرات الخاصة بك، إما عن طريق إعدادها إلى قيمة جديدة، أو عن طريق زيادتها وتخفيضها.
 
-- You can change the colour of the turtle as well. Run the code below to see what happens: <iframe src="https://trinket.io/embed/python/ab6732d60e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+- يمكنك تغيير لون السلحفاة أيضًا. قم بتقليل النطاق ومعرفة ما سيحدث: <iframe src="https://trinket.io/embed/python/ab6732d60e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
-### Challenge
+### التحدي
 
-Try to complete each of the challenges below.
+حاول إكمال كل من التحديات أدناه.
 
-- Complete the triangle above with a colour of your choice.
-- Draw a square with sides which are four different shades of red.
-- Draw a cross made of four different colours.
+- أكمل المثلث أعلاه بلون من اختيارك.
+- ارسم مربعًا بجوانب مكونة من أربع درجات مختلفة من اللون الأحمر.
+- ارسم علامة مصنوعة من أربعة ألوان مختلفة.
 
 \--- hints \--- \--- hint \---
 
-To change a colour, you can just keep adding or subtracting values from the original variables.
+لتغيير لون ما، يمكنك فقط إضافة أو طرح القيم من المتغيرات الأصلية.
 
 \--- /hint \--- \--- hint \---
 
-So you could alter colours by doing the following:
+لذلك يمكنك تغيير الألوان عن طريق القيام بما يلي:
 
 ```python
 R = 255
