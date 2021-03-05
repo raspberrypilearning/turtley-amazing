@@ -1,7 +1,7 @@
-## Is it art, maths, or computer science?
+## هل هو فن أم رياضيات أم علوم كمبيوتر؟
 
-Have a look at the image below. How would you describe it? Is is art, maths, or computer science?
+الق نظرة على الصورة أدناه. كيف تصف ذلك؟ هل هو فن أم رياضيات أم علوم كمبيوتر؟
 
 ![](images/screen1.png)
 
-It's a computer-generated image, but making it requires an understanding of art, maths, and computer science. Let's see how you too can make images just like this.
+إنها صورة تم إنشاؤها بواسطة الكمبيوتر، ولكن جعلها يتطلب فهمًا للفن والرياضيات وعلوم الكمبيوتر. دعونا نرى كيف يمكنك أيضا صنع صور كهذه.
