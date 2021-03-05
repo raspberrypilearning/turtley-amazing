@@ -1,7 +1,7 @@
 ---
-title: Turtley Amazing
+title: السلحفاة المدهشة
 hero_image: images/banner.png
-description: In this resource you will take your first steps with the programming language Python
+description: في هذا المصدر، ستتخذ خطواتك الأولى مع لغة البرمجة Python
 original_url: https://raspberrypi.org/learning/turtley-amazing
 theme: violet
 duration: 2
@@ -18,28 +18,28 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: المقدمة
   - 
-    title: What you will need
+    title: ما ستحتاج إليه
   - 
-    title: Is it art, maths, or computer science?
+    title: هل هو فن أم رياضيات أم علوم كمبيوتر؟
   - 
-    title: Drawing a line
+    title: رسم خط
   - 
-    title: Turning
+    title: الدوران
   - 
-    title: Changing colours
+    title: تغيير الألوان
   - 
-    title: Repetition
+    title: التكرار
   - 
-    title: Better spirals
+    title: لوالب حلزونية أفضل
   - 
-    title: Loopy colours
+    title: ألوان متكررة
   - 
-    title: Modulo to the rescue
+    title: باقي القسمة جاهز للانقاذ
   - 
-    title: Enormous lists
+    title: قوائم هائلة
   - 
-    title: Putting it all together
+    title: ضع كل شيء معا
   - 
-    title: What next?
+    title: ما التالي؟
