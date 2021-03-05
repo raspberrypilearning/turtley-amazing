@@ -1,10 +1,10 @@
-## Repetition
+## التكرار
 
-Repeating lines of code is one of the fastest ways to get something done. Quite often in computer science, it makes more sense to repeat lines of code rather than write out another set of instructions. For example, the square you created earlier uses the same two instructions four times. Rather than writing them out four times, you could write them out once but add an instruction to repeat them.
+تكرار الأسطر من التعليمات البرمجية هو واحدة من أسرع الطرق للحصول على شيء ما. في كثير من الأحيان في علوم الكمبيوتر، يكون من المنطقي تكرار أسطر من التعليمات البرمجية بدلاً من كتابة مجموعة أخرى من التعليمات. على سبيل المثال، يستخدم المربع الذي أنشأته سابقًا نفس التعليمات أربع مرات. بدلاً من كتابتها أربع مرات ، يمكنك كتابتها مرة واحدة مع إضافة تعليمات لتكرارها.
 
-In Python there are two types of loops that you are likely to use: a `while` loop and a `for` loop. If you want a section of code to repeat forever, or until a condition is set, then a `while` loop might be best. If you want to loop for a set number of times, then a `for` loop is preferable.
+يوجد في Python نوعان من الحلقات التي من المحتمل أن تستخدمها: حلقة ` while ` وحلقة ` for `. إذا كنت تريد تكرار جزء من التعليمات البرمجية إلى الأبد، أو حتى يتم تعيين شرط، فقد تكون الحلقة `while` هي الأفضل. إذا كنت تريد التكرار لعدد محدد من المرات، فإن الحلقة ` for ` هي الأفضل.
 
-- Here, we have used a `while True` loop. This means that the code inside the loop (i.e. the code which is indented) will repeat forever. You can try it in Trinket to see what it does, but remember it will loop **forever**!
+- هنا، استخدمنا حلقة `while True`. هذا يعني أن الكود الموجود داخل الحلقة (أي الرمز الذي تم وضع مسافة بادئة له) سوف يتكرر إلى الأبد. يمكنك تجربتها في Trinket لترى ما تفعله، لكن تذكر أنها ستدور **إلى الأبد**!
     
     ```python
     from turtle import Turtle, Screen
@@ -16,11 +16,11 @@ In Python there are two types of loops that you are likely to use: a `while` loo
       turtle.right(1)
     ```
     
-    This type of loop is not going to be very useful for drawing shapes with Turtle where you want to be more precise.
+    هذا النوع من الحلقات لن يكون مفيدا جدا لرسم الأشكال مع السلاحف، حيث تريد أن تكون أكثر دقة.
 
-- In this example, a `for` loop has been used. Press **Run** to see what happens. <iframe src="https://trinket.io/embed/python/b89b6f5457" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+- في هذا المثال، تم استخدام حلقة ` for `. اضغط على **Run** لمعرفة ما سيحدث. <iframe src="https://trinket.io/embed/python/b89b6f5457" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
-A `for` loop repeats instructions a set number of times, in this case 8 times. A `for` loop has an associated variable (called `i` here). In this example, `i` starts from `0` and increases by `1` each time. Let's apply this to the code to draw a square:
+تكرر الحلقة ` for ` التعليمات لعدد محدد من المرات، في هذه الحالة 8 مرات. حلقة ` for ` لها متغير مرتبط معها (يسمى `i` هنا). في هذا المثال، يبدأ `i` من `0` ويزيد بمقدار `1` في كل مرة. دعنا نطبق هذا على الكود لرسم مربع:
 
 ```python from turtle import Turtle, Screen
 
@@ -28,9 +28,9 @@ turtle = Turtle()
 
 for i in range(4): turtle.forward(100) turtle.right(90) ```
 
-- Copy and paste this code into the Trinket editor above and run it. The turtle has been asked to repeat two instructions four times to make a square.
+- انسخ هذا الرمز والصقه في محرر Trinket أعلاه وقم بتشغيله. طُلب من السلحفاة أن تكرر توجيهين أربع مرات لإنشاء مربع.
 
-- Once you have created one shape using a loop, you can repeat the shape again and again by putting it inside another loop. This is a great way to draw spirals. Adapt your code by making it look like this:
+- بمجرد إنشاء شكل واحد باستخدام حلقة، يمكنك تكرار الشكل مرارًا وتكرارًا بوضعه داخل حلقة أخرى. هذه طريقة رائعة لرسم الحلقات. قم بتكييف التعليمات البرمجية الخاصة بك بجعلها تبدو كما يلي:
     
     ```python
     from turtle import Turtle, Screen
@@ -44,23 +44,23 @@ for i in range(4): turtle.forward(100) turtle.right(90) ```
       turtle.right(25)
     ```
     
-    A spiral can be made by turning a small degree and then moving forward a small amount. The section of code for making a square is inside another `for` loop that repeats it 30 times, each time turning the cursor 25 degress to make a pleasing spiral shape.
+    يمكن عمل اللولب عن طريق الدوران بدرجة صغيرة، ثم التحرك للأمام بمقدار صغير. يقع قسم الكود الخاص بإنشاء مربع داخل حلقة أخرى من ` for ` تكررها 30 مرة، في كل مرة يدير المؤشر 25 درجة لعمل شكل حلزوني ممتع.
 
-### Challenge
+### التحدي
 
-Try to complete each of the challenges below.
+حاول إكمال كل من التحديات أدناه.
 
-- Can you alter the `for` loop so that it draws a more interesting spiral using one of the shapes you made earlier, like a triangle or circle?
+- هل يمكنك تغيير حلقة ` for ` بحيث ترسم حلزونيًا أكثر تشويقًا باستخدام أحد الأشكال التي قمت بإنشائها مسبقًا، مثل مثلث أو دائرة؟
 
-- Adding a few extra lines where you alter the variables `R`, `G`, and `B` would allow you to make a multicoloured spiral. Have a go at creating a rainbow spiral.
+- إضافة بضعة سطور إضافية، حيث تقوم بتغيير المتغيرات `R`و `G`و `B` ستسمح لك بعمل حلزوني متعدد الألوان. جرب إنشاء دوامة قوس قزح.
 
 \--- hints \--- \--- hint \---
 
-Just like in the previous exercise, you can add to or subtract from the `R`, `G`, and `B` variables.
+تمامًا كما في التمرين السابق، يمكنك الجمع أو الطرح من المتغيرات `R`و `G`و `B`.
 
 \--- /hint \--- \--- hint \---
 
-Just alter the variables within the `for` loop:
+ما عليك سوى تغيير المتغيرات داخل حلقة ` for `:
 
 ```python
 from turtle import Turtle, Screen
@@ -83,7 +83,7 @@ for i in range(30):
 
 \--- /hint \--- \--- hint \---
 
-Try this to get started:
+نصائح لبدء الاستخدام:
 
 ```python
 from turtle import Turtle, Screen
