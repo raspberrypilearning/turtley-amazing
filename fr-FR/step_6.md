@@ -1,27 +1,27 @@
-## Changing colours
+## Changer de couleurs
 
-The default colour for the pen used by the turtle cursor is black, and the default background colour is white. You can change the colours to make your shapes look even better.
+La couleur par défaut du crayon utilisé par le curseur tortue est le noir et la couleur d'arrière-plan par défaut est le blanc. Tu peux changer les couleurs pour rendre tes formes encore plus belles.
 
-- Look at the code below. It contains three variables called `R`, `G`, and `B`. <iframe src="https://trinket.io/embed/python/b964b7d3ce" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+- Regarde le code ci-dessous. Il contient trois variables appelées `R`, `G` et `B`. <iframe src="https://trinket.io/embed/python/b964b7d3ce" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
-Variables are a way of storing a value and giving it a name. For instance, there is a variable name `R` with a value of `255`.
+Les variables sont un moyen de stocker une valeur et de lui donner un nom. Par exemple, il existe une variable avec le nom `R` qui contient une valeur de `255`.
 
-The following line is commented out in the trinket above, but will be needed if you are using another editor. So if you are not working in Trinket, then remove the `#` symbol, to uncomment the line.
+La ligne suivante est commentée dans le trinket ci-dessus, mais sera nécessaire si tu utilises un autre éditeur. Donc, si tu ne travailles pas dans Trinket, supprime le symbole `#` , pour décommenter la ligne.
 
     python
-      screen.colormode(255)
+      screen.colormode (255)
 
-- Run the code and see what happens.
+- Exécute le code et regarde ce qui se passe.
 
-- Try changing the values of the three variables, and see what happens. (Note: the maximum value is 255, and after this there will be no effect.) What do you think R, G, and B represent?
+- Essaye de changer les valeurs des trois variables, et vois ce qui se passe. (Remarque: la valeur maximale est de 255, et après cela, il n'y aura aucun effet.) Que penses-tu que R, G et B représentent?
 
 ## \--- collapse \---
 
-## title: Answer
+## title: Réponse
 
-`R`, `G` and `B` represent how much red, green, and blue will be used in the colour. Each can have any value from `0` up to `255`.
+`R`, `G` et `B` représentent la quantité de rouge, de vert et de bleu qui sera utilisée dans la couleur. Chacune peut avoir une valeur de `0` à `255`.
 
-So to make yellow, you could try the following:
+Donc pour faire du jaune, tu peux essayer ce qui suit :
 
 ```python
 R = 255
@@ -33,25 +33,25 @@ B = 0
 
 [[[generic-theory-simple-colours]]]
 
-You can change the value of your variables either by setting them to a new value, or by increasing and decreasing them.
+Tu peux modifier la valeur de tes variables en leur attribuant une nouvelle valeur ou en les augmentant et en les diminuant.
 
-- You can change the colour of the turtle as well. Run the code below to see what happens: <iframe src="https://trinket.io/embed/python/ab6732d60e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+- Tu peux également changer la couleur de la tortue. Exécute le code ci-dessous pour voir ce qui se passe: <iframe src="https://trinket.io/embed/python/ab6732d60e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
-### Challenge
+### Défi
 
-Try to complete each of the challenges below.
+Essaye de relever chacun des défis ci-dessous.
 
-- Complete the triangle above with a colour of your choice.
-- Draw a square with sides which are four different shades of red.
-- Draw a cross made of four different colours.
+- Compléter le triangle ci-dessus avec la couleur de ton choix.
+- Dessiner un carré avec des côtés utilisant quatre nuances différentes de rouge.
+- Dessiner une croix faite de quatre couleurs différentes.
 
 \--- hints \--- \--- hint \---
 
-To change a colour, you can just keep adding or subtracting values from the original variables.
+Pour changer une couleur, tu peux simplement continuer à ajouter ou à soustraire des valeurs des variables d'origine.
 
 \--- /hint \--- \--- hint \---
 
-So you could alter colours by doing the following:
+Tu peux donc modifier les couleurs en procédant comme suit:
 
 ```python
 R = 255
