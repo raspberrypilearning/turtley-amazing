@@ -1,10 +1,10 @@
-## Modulo to the rescue
+## Modulo à la rescousse
 
-In the previous example, you need a way to keep looping over the list items, so when `i` gets to 9, it will go back around and get the "0th" item from the list again. This is where the modulo operator `%` can help you out.
+Dans l'exemple précédent, tu avais besoin d'un moyen de continuer à parcourir les éléments de la liste, donc quand `i` arrivait à 9, il retournerait au début et récupérerait le "0e" élément de la liste. C'est là que l'opérateur modulo `%` peut t'aider.
 
-- Look at the code below: run it and see if you can figure out what is going on. You shoud get `0` to begin with. <iframe src="https://trinket.io/embed/python/8fd77a1942" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+- Regarde le code ci-dessous: exécute-le pour voir si tu peux comprendre ce qui se passe. Tu devrais obtenir `0` pour commencer. <iframe src="https://trinket.io/embed/python/8fd77a1942" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
-- Try changing the numbers in the `print` command. There are some examples to try below:
+- Essaie de changer les nombres dans la commande `print`. Voici quelques exemples à essayer ci-dessous:
     
     ```python
     print(17 % 6)
@@ -17,6 +17,6 @@ In the previous example, you need a way to keep looping over the list items, so 
     print(11 % 6)
     ```
 
-- Did you figure it out? The `%` operator prints out the remainder of a division. For example, 15 ÷ 6 is 2 with a remainder of 3. Therefore 15 % 6 would be 3. We can use this operator to help with the problem of running off the end of the list. If the `range` goes above the length of the list, you can just do a `%` of the length of the list.
+- As-tu compris? L'opérateur `%` imprime le reste d'une division. Par exemple, 15 ÷ 6 vaut 2 avec un reste de 3. Par conséquent, 15% 6 serait 3. Nous pouvons utiliser cet opérateur pour résoudre le problème de la fin de la liste. Si le `range` dépasse la longueur de la liste, tu peux simplement faire un `%` de la longueur de la liste.
 
-- Have a look at the example below, and read through the code carefully to make sure you can see how the modulo operator is used. <iframe src="https://trinket.io/embed/python/c56b5cb705" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+- Jette un œil à l'exemple ci-dessous et lis attentivement le code pour t'assurer que tu peux comprendre comment l'opérateur modulo est utilisé. <iframe src="https://trinket.io/embed/python/c56b5cb705" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
