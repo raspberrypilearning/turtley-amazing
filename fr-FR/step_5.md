@@ -1,18 +1,18 @@
-## Turning
+## Tourner
 
-You've used code to draw a line. Good work! Now let's try making the turtle turn around. To do this you need to instruct the turtle not only to move forward, but also to turn right or left. <iframe src="https://trinket.io/embed/python/88c91b8dfb" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+Tu as utilisé du code pour dessiner une ligne. Bon travail! Maintenant, essayons de faire tourner la tortue. Pour ce faire, tu dois demander à la tortue non seulement d'aller en l'avant, mais aussi de tourner à droite ou à gauche. <iframe src="https://trinket.io/embed/python/88c91b8dfb" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 
-- What do you think will happen in the code above? Click on **Run** to see if you were right.
+- Que penses-tu qu'il se passera dans le code ci-dessus? Clique sur **Exécuter** pour voir si tu avais raison.
     
-    `turtle.right(90)` turns the cursor 90 degrees right. You can also turn left with `turtle.left(90)`. To change the amount that the cursor turns, simply change the value of degrees.
+    `turtle.right (90)` tourne le curseur de 90 degrés vers la droite. Tu peux également tourner à gauche avec `turtle.left(90)`. Pour changer l'amplitude de rotation du curseur, change simplement la valeur des degrés.
 
-- Complete the square shape you've started by adding the next lines of code and press **Run**. Keep trying until you get it right.
+- Complète la forme carrée que tu as commencée en ajoutant les lignes de code suivantes et appuie sur **Exécuter**. Continue à essayer jusqu'à ce que tu y arrives correctement.
 
-### Challenge
+### Défi
 
-Try to complete each of the challenges below.
+Essaye de relever chacun des défis ci-dessous.
 
-- Draw a rectangle: two of the four sides need to be longer.
-- Draw a triangle: how many degrees do you need to turn?
-- Draw a cross: backwards and forwards work well together.
-- Draw a circle: what happens if you turn lots?
+- Dessiner un rectangle: deux des quatre côtés doivent être plus longs.
+- Dessiner un triangle: de combien de degrés as-tu besoin pour tourner?
+- Dessiner une croix: les marches arrière et avant fonctionnent bien ensemble.
+- Dessiner un cercle: que se passe-t-il si tu tournes beaucoup ?
