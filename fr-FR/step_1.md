@@ -1,18 +1,18 @@
-## What you will make
+## Ce que tu feras
 
-In this resource you will take your first steps with the programming language Python to draw shapes, patterns, and spirals. You will use a module named Turtle. Along the way you will learn how to think in sequences, and use loops to repeat a sequence. This is a great stepping stone from a visual programming language like Scratch to the text-based environment of Python.
+Dans cette ressource, tu feras tes premiers pas avec le langage de programmation Python pour dessiner des formes, des motifs et des spirales. Tu utiliseras un module nommé Turtle. En cours de route, tu apprendras à penser dans des séquences, et utiliseras des boucles pour répéter une séquence. C'est un excellent tremplin pour passer d'un langage de programmation visuel comme Scratch vers l'environnement textuel de Python.
 
-## What you will learn
+## Ce que tu vas apprendre
 
-By making patterns with Python code you will learn:
+En créant des modèles avec du code Python, tu apprendras :
 
-- To take your first steps with the Python programming language
-- How to draw lines with Python Turtle
-- How to make turns
-- How to change the pen colour
-- To use loops to repeat some instructions and create shapes
-- To use more loops to create spiral patterns
+- À faire tes premiers pas avec le langage de programmation Python
+- Comment dessiner avec Turtle de Python
+- Comment faire des virages
+- Comment changer la couleur du stylo
+- À utiliser des boucles pour répéter quelques instructions et créer des formes
+- Utiliser plus de boucles pour créer des motifs en spirale
 
-This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
+Ce projet couvre les éléments suivants du [Programme de Créativité Numérique de Raspberry Pi](https://www.raspberrypi.org/curriculum/) :
 
-- [Combine programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder)
+- [Combine des concepts de programmation pour résoudre un problème](https://www.raspberrypi.org/curriculum/programming/builder)
