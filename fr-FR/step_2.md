@@ -1,3 +1,3 @@
-## What you will need
+## Ce dont tu auras besoin
 
-- An internet connected computer
+- Un ordinateur connecté à Internet
