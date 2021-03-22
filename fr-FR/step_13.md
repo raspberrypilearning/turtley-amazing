@@ -1,5 +1,5 @@
-## What next?
+## Que faire ensuite?
 
-- Learn how to use `functions` to [draw snowflakes](https://projects.raspberrypi.org/en/projects/turtle-snowflakes/) using Turtle. 
-- Create interactive stories using `lists` in Python with the [Storytime](https://projects.raspberrypi.org/en/projects/storytime/) resource. 
-- Take your first steps [controlling physical objects](https://projects.raspberrypi.org/en/projects/physical-computing) with Python and a Raspberry Pi.
+- Apprends à utiliser les `fonctions` pour [dessiner des flocons de neige](https://projects.raspberrypi.org/en/projects/turtle-snowflakes/) en utilisant Turtle. 
+- Crée des histoires interactives à l'aide de `listes` en Python avec la ressource [L'heure des histoires](https://projects.raspberrypi.org/en/projects/storytime/). 
+- Fais tes premiers pas pour [contrôler les objets physiques](https://projects.raspberrypi.org/en/projects/physical-computing) avec Python et un Raspberry Pi.
