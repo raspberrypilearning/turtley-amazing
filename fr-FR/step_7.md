@@ -28,7 +28,9 @@ from turtle import Turtle, Screen
 
 turtle = Turtle()
 
-for i in range(4): turtle.forward(100) turtle.right(90) 
+for i in range(4): 
+    turtle.forward(100) 
+    turtle.right(90) 
 ```
 
 - Copie et colle ce code dans l'éditeur Trinket ci-dessus et exécute-le. On a demandé à la tortue de répéter deux instructions quatre fois pour faire un carré.
