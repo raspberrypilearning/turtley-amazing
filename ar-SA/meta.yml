@@ -17,16 +17,18 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: المقدمة
-  - title: ما ستحتاج إليه
-  - title: هل هو فن أم رياضيات أم علوم كمبيوتر؟
-  - title: رسم خط
-  - title: الدوران
-  - title: تغيير الألوان
-  - title: التكرار
-  - title: لوالب حلزونية أفضل
-  - title: ألوان متكررة
-  - title: باقي القسمة جاهز للانقاذ
-  - title: قوائم هائلة
-  - title: ضع كل شيء معا
-  - title: ما التالي؟
+- title: المقدمة
+- title: ما ستحتاج إليه
+  completion: engaged
+- title: هل هو فن أم رياضيات أم علوم كمبيوتر؟
+- title: رسم خط
+- title: الدوران
+- title: تغيير الألوان
+- title: التكرار
+- title: لوالب حلزونية أفضل
+- title: ألوان متكررة
+- title: باقي القسمة جاهز للانقاذ
+- title: قوائم هائلة
+  completion: internal
+- title: ضع كل شيء معا
+- title: ما التالي؟
