@@ -17,16 +17,20 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Inleiding
-  - title: Wat heb je nodig
-  - title: Is het kunst, wiskunde of informatica?
-  - title: Een lijn tekenen
-  - title: Draaien
-  - title: Kleuren veranderen
-  - title: Herhaling
-  - title: Betere spiralen
-  - title: Loopy kleuren
-  - title: Modulo komt te hulp
-  - title: Enorme lijsten
-  - title: Alles bij elkaar brengen
-  - title: Wat kun je verder nog doen?
+- title: Inleiding
+- title: Wat heb je nodig
+- title: Is het kunst, wiskunde of informatica?
+- title: Een lijn tekenen
+  completion:
+  - engaged
+- title: Draaien
+- title: Kleuren veranderen
+- title: Herhaling
+- title: Betere spiralen
+- title: Loopy kleuren
+- title: Modulo komt te hulp
+- title: Enorme lijsten
+- title: Alles bij elkaar brengen
+  completion:
+  - internal
+- title: Wat kun je verder nog doen?
