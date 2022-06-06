@@ -19,9 +19,10 @@ last_tested: 2017-01-01
 steps:
 - title: Inleiding
 - title: Wat heb je nodig
-  completion: engaged
 - title: Is het kunst, wiskunde of informatica?
 - title: Een lijn tekenen
+  completion:
+  - engaged
 - title: Draaien
 - title: Kleuren veranderen
 - title: Herhaling
@@ -29,6 +30,7 @@ steps:
 - title: Loopy kleuren
 - title: Modulo komt te hulp
 - title: Enorme lijsten
-  completion: internal
 - title: Alles bij elkaar brengen
+  completion:
+  - internal
 - title: Wat kun je verder nog doen?

@@ -20,9 +20,10 @@ last_tested: 2017-01-01
 steps:
 - title: Introduction
 - title: Ce dont tu auras besoin
-  completion: engaged
 - title: Est-ce de l'art, des mathématiques ou de l'informatique ?
 - title: Tracer une ligne
+  completion:
+  - engaged
 - title: Tourner
 - title: Changer de couleurs
 - title: Répétition
@@ -30,6 +31,7 @@ steps:
 - title: Couleurs excentriques
 - title: Modulo à la rescousse
 - title: Listes énormes
-  completion: internal
 - title: Récapitulons
+  completion:
+  - internal
 - title: Que faire ensuite?

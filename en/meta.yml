@@ -20,9 +20,10 @@ last_tested: 2017-01-01
 steps:
 - title: Introduction
 - title: What you will need
-  completion: engaged
 - title: Is it art, maths, or computer science?
 - title: Drawing a line
+  completion:
+  - engaged
 - title: Turning
 - title: Changing colours
 - title: Repetition
@@ -30,6 +31,7 @@ steps:
 - title: Loopy colours
 - title: Modulo to the rescue
 - title: Enormous lists
-  completion: internal
 - title: Putting it all together
+  completion:
+  - internal
 - title: What next?

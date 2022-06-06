@@ -19,9 +19,10 @@ last_tested: 2017-01-01
 steps:
 - title: المقدمة
 - title: ما ستحتاج إليه
-  completion: engaged
 - title: هل هو فن أم رياضيات أم علوم كمبيوتر؟
 - title: رسم خط
+  completion:
+  - engaged
 - title: الدوران
 - title: تغيير الألوان
 - title: التكرار
@@ -29,6 +30,7 @@ steps:
 - title: ألوان متكررة
 - title: باقي القسمة جاهز للانقاذ
 - title: قوائم هائلة
-  completion: internal
 - title: ضع كل شيء معا
+  completion:
+  - internal
 - title: ما التالي؟

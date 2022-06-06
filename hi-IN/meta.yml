@@ -19,9 +19,10 @@ last_tested: 2017-01-01
 steps:
 - title: परिचय
 - title: आपको किन चीजों की आवश्यकता होगी
-  completion: engaged
 - title: क्या यह कला, गणित, या कंप्यूटर विज्ञान है?
 - title: एक रेखा खींचना
+  completion:
+  - engaged
 - title: घुमाना
 - title: रंग बदलना
 - title: दोहराना
@@ -29,6 +30,7 @@ steps:
 - title: लूपी रंग
 - title: बचाव के लिए मॉड्यूलो
 - title: भारी सूचियाँ
-  completion: internal
 - title: इस सब को एक जगह लाना
+  completion:
+  - internal
 - title: आगे क्या?
