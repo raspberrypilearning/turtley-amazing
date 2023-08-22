@@ -25,6 +25,8 @@ steps:
     title: هل هو فن أم رياضيات أم علوم كمبيوتر؟
   - 
     title: رسم خط
+    completion:
+      - engaged
   - 
     title: الدوران
   - 
@@ -41,5 +43,7 @@ steps:
     title: قوائم هائلة
   - 
     title: ضع كل شيء معا
+    completion:
+      - internal
   - 
     title: ما التالي؟
