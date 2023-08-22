@@ -25,6 +25,8 @@ steps:
     title: Est-ce de l'art, des mathématiques ou de l'informatique ?
   - 
     title: Tracer une ligne
+    completion:
+      - engaged
   - 
     title: Tourner
   - 
@@ -41,5 +43,7 @@ steps:
     title: Listes énormes
   - 
     title: Récapitulons
+    completion:
+      - internal
   - 
     title: Que faire ensuite?
