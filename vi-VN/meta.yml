@@ -25,6 +25,8 @@ steps:
     title: Is it art, maths, or computer science?
   - 
     title: Drawing a line
+    completion:
+      - engaged
   - 
     title: Turning
   - 
@@ -41,5 +43,7 @@ steps:
     title: Enormous lists
   - 
     title: Putting it all together
+    completion:
+      - internal
   - 
     title: What next?
