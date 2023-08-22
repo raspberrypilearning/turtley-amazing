@@ -25,6 +25,8 @@ steps:
     title: हे कला आहे, गणित आहे की संगणक (कंप्युटर) विज्ञान आहे?
   - 
     title: एक रेघ काढणे
+    completion:
+      - engaged
   - 
     title: वळवणे
   - 
@@ -41,5 +43,7 @@ steps:
     title: प्रचंड याद्या
   - 
     title: ह्या सर्वाला एकत्रित करणे
+    completion:
+      - internal
   - 
     title: पुढे काय?
