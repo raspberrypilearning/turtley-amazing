@@ -25,6 +25,8 @@ steps:
     title: Is het kunst, wiskunde of informatica?
   - 
     title: Een lijn tekenen
+    completion:
+      - engaged
   - 
     title: Draaien
   - 
@@ -41,5 +43,7 @@ steps:
     title: Enorme lijsten
   - 
     title: Alles bij elkaar brengen
+    completion:
+      - internal
   - 
     title: Wat kun je verder nog doen?
