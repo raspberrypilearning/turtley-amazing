@@ -25,6 +25,8 @@ steps:
     title: ಇದು ಕಲೆ, ಗಣಿತ ಅಥವಾ ಕಂಪ್ಯೂಟರ್ ವಿಜ್ಞಾನವೇ?
   - 
     title: ರೇಖೆಯನ್ನು ಚಿತ್ರಿಸುವುದು
+    completion:
+      - engaged
   - 
     title: ತಿರುಗುವುದು
   - 
@@ -41,5 +43,7 @@ steps:
     title: ಬೃಹತ್ ಪಟ್ಟಿಗಳು
   - 
     title: ಎಲ್ಲವನ್ನೂ ಒಟ್ಟಿಗೆ ಇಡುವುದು
+    completion:
+      - internal
   - 
     title: ಮುಂದೆ ಏನು?
