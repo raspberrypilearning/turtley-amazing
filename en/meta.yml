@@ -34,6 +34,5 @@ steps:
 - title: Putting it all together
   completion:
   - internal
-- title: What next?
   completion:
   - external
