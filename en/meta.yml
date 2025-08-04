@@ -18,9 +18,7 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-- title: Introduction
-- title: What you will need
-- title: Is it art, maths, or computer science?
+- title: What you will do
 - title: Drawing a line
   completion:
   - engaged
@@ -28,11 +26,11 @@ steps:
 - title: Changing colours
 - title: Repetition
 - title: Better spirals
+  completion:
+  - internal
 - title: Loopy colours
 - title: Modulo to the rescue
 - title: Enormous lists
 - title: Putting it all together
-  completion:
-  - internal
   completion:
   - external
