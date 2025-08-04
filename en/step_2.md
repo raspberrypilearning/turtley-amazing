@@ -30,7 +30,14 @@ The image above is made up of lines and only lines! To get started, you need to 
 </div>
 Notes:
 
+--- task ---
 
-- Click on **Run** ![arrow](images/arrow.png) to see the code working.
-- Now try changing the number in the line `turtle.forward(100)`, click on **Run** ![arrow](images/arrow.png) again and see what happens.
+Click on ![arrow](images/arrow.png) to see the code working.
 
+--- /task ---
+
+--- task ---
+
+Now try changing the number in the line `turtle.forward(100)`, click on ![arrow](images/arrow.png) again and see what happens.
+
+--- /task ---
