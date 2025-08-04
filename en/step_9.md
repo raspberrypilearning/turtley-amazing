@@ -1,18 +1,10 @@
-## Loopy colours
+## Enormous lists
 
-To get more interesting colours, you could write lots of colours in a long list, and then keep changing the colour of the turtle according to the colour of the list. You can create lists in Python, using square brackets `[ ]`.
+You can now have a go at creating a list of colours that's a little longer than before. To do this you can use a `while` loop. Unlike a `for` loop, a `while` loop keeps running until a specific condition has been met.
 
-Below is an example of a list of RGB colours:
+- Look at the code below. The `while` loop is used to gradually increase the value of `G` until it reaches 255. Each time, the colours are added to the list.
 
-```python
-colours = [(85, 211, 136), (197, 196, 126), (235, 233, 166), (25, 135, 222), (211, 64, 159), (159, 165, 106), (178, 160, 125), (36, 192, 70), (231, 184, 204), (63, 203, 219)]
-```
+  <iframe src="https://trinket.io/embed/python/cfb2a665a8" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-- This next bit gets a bit complicated. Have a look at the code below, then run it to see what happens.
-
-  <iframe src="https://trinket.io/embed/python/d58123d315" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-
-  The line `turtle.color(colours[i])` is telling the program to choose the "`i`th" item in the list. Remember that `i` starts from 0 and goes up to 9.
-  
-- What if you want a longer line? Try changing the number of loops in the `for` loop to `range(20)` and see what happens. Do you get an error?
+- Can you add in two more `while` loops to add more colours? The next loop should gradually decrease `R` until it reaches 0. The final one should then increase `B` until it reaches 255. Have a go, but if you get stuck, all will be revealed in the last section.
 
