@@ -49,12 +49,7 @@ Try to complete each of the challenges below.
 -  Draw a square with sides which are four different shades of red.
 -  Draw a cross made of four different colours.
 
---- hints --- 
---- hint ---
-
-To change a colour, you can just keep adding or subtracting values from the original variables.
-
---- /hint --- 
+--- hints ---
 --- hint ---
 
 So you could alter colours by doing the following:
@@ -79,3 +74,4 @@ turtle.right(120)
 
 --- /hint ---
 --- /hints ---
+
